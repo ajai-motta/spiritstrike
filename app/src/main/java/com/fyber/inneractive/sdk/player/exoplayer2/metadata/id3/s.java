@@ -1,0 +1,50 @@
+package com.fyber.inneractive.sdk.player.exoplayer2.metadata.id3;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.fyber.inneractive.sdk.player.exoplayer2.util.z;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class s extends o {
+    public static final Parcelable.Creator<s> CREATOR = new r();
+    public final String b;
+    public final String c;
+
+    public s(String str, String str2, String str3) {
+        super(str);
+        this.b = str2;
+        this.c = str3;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || s.class != obj.getClass()) {
+            return false;
+        }
+        s sVar = (s) obj;
+        return this.f1403a.equals(sVar.f1403a) && z.a(this.b, sVar.b) && z.a(this.c, sVar.c);
+    }
+
+    public final int hashCode() {
+        int iHashCode = (this.f1403a.hashCode() + 527) * 31;
+        String str = this.b;
+        int iHashCode2 = (iHashCode + (str != null ? str.hashCode() : 0)) * 31;
+        String str2 = this.c;
+        return iHashCode2 + (str2 != null ? str2.hashCode() : 0);
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(this.f1403a);
+        parcel.writeString(this.b);
+        parcel.writeString(this.c);
+    }
+
+    public s(Parcel parcel) {
+        super(parcel.readString());
+        this.b = parcel.readString();
+        this.c = parcel.readString();
+    }
+}

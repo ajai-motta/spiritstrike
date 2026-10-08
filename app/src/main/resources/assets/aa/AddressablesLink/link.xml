@@ -1,0 +1,1555 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AccumulationAniEvent" preserve="all" />
+    <type fullname="AccumulationCell" preserve="all" />
+    <type fullname="AccumulationEventMiniBanner" preserve="all" />
+    <type fullname="AccumulationEventPanel" preserve="all" />
+    <type fullname="Aether_Info_Popup" preserve="all" />
+    <type fullname="AetherBonusPanel" preserve="all" />
+    <type fullname="Alchemy_Popup_UltStatModify" preserve="all" />
+    <type fullname="AlchemyCell" preserve="all" />
+    <type fullname="AlchemyModifyUltRevalue" preserve="all" />
+    <type fullname="AlchemyModifyUltRevalueCell" preserve="all" />
+    <type fullname="AlchemyModifyUltRevalueResultPopUp" preserve="all" />
+    <type fullname="AlchemyModifyUltRevalueStatCell" preserve="all" />
+    <type fullname="AlchemySelectMaterialInfo" preserve="all" />
+    <type fullname="AlchemySelectParts" preserve="all" />
+    <type fullname="AlchemyUltimateCraft" preserve="all" />
+    <type fullname="Arcana_GridItem_CardNode" preserve="all" />
+    <type fullname="Arcana_GridItem_NodeStat" preserve="all" />
+    <type fullname="Arcana_Popup" preserve="all" />
+    <type fullname="Archive_GridItem_SpecialOption" preserve="all" />
+    <type fullname="Archive_GridItem_SpecialOptionHead" preserve="all" />
+    <type fullname="Archive_GridItem_Synergy" preserve="all" />
+    <type fullname="Archive_GridItem_Toggle" preserve="all" />
+    <type fullname="Archive_Panel_Card" preserve="all" />
+    <type fullname="Archive_Panel_Card_List" preserve="all" />
+    <type fullname="Archive_Panel_SpecialOpt" preserve="all" />
+    <type fullname="Archive_Panel_Synergy" preserve="all" />
+    <type fullname="Archive_Popup" preserve="all" />
+    <type fullname="AtlasImage" preserve="all" />
+    <type fullname="AtlasSprite" preserve="all" />
+    <type fullname="Attendance_GridItem" preserve="all" />
+    <type fullname="Attendance14days_1" preserve="all" />
+    <type fullname="Attendance28days" preserve="all" />
+    <type fullname="Attendance7days" preserve="all" />
+    <type fullname="AudioSourceVolumeController" preserve="all" />
+    <type fullname="AutoFieldMoveNoti" preserve="all" />
+    <type fullname="AwakenEffect_GridItem" preserve="all" />
+    <type fullname="BackgroundScroll" preserve="all" />
+    <type fullname="Badge_PVPCondition" preserve="all" />
+    <type fullname="BadgeObjectConnector" preserve="all" />
+    <type fullname="Bar_Popup" preserve="all" />
+    <type fullname="Battle.BT_AnotherWorld_TimeCharger" preserve="all" />
+    <type fullname="Battle.BT_Atk_ChainLightning_Line" preserve="all" />
+    <type fullname="Battle.BT_BgItem" preserve="all" />
+    <type fullname="Battle.BT_BuffObj" preserve="all" />
+    <type fullname="Battle.BT_Charac__Obj" preserve="all" />
+    <type fullname="Battle.BT_Charac_Player_SetSkin" preserve="all" />
+    <type fullname="Battle.BT_Charac_Shadow_BodyFollower" preserve="all" />
+    <type fullname="Battle.BT_Cheat_Window" preserve="all" />
+    <type fullname="Battle.BT_Contents_ArrowHUD" preserve="all" />
+    <type fullname="Battle.BT_Contents_ArrowUI" preserve="all" />
+    <type fullname="Battle.BT_Contents_Gauge__SubMission" preserve="all" />
+    <type fullname="Battle.BT_Contents_Gauge__SubMissionItem" preserve="all" />
+    <type fullname="Battle.BT_Contents_GridItem_CompanionPVP_EnchantList" preserve="all" />
+    <type fullname="Battle.BT_Contents_GridItem_CompanionPVP_Meter" preserve="all" />
+    <type fullname="Battle.BT_Contents_GridItem_CompanionPVP_Profile" preserve="all" />
+    <type fullname="Battle.BT_Contents_GridItem_CompanionPVP_ProfileLarge" preserve="all" />
+    <type fullname="Battle.BT_Contents_GridItem_CompanionPVP_UserProfile" preserve="all" />
+    <type fullname="Battle.BT_Contents_Popup_CompanionPVP_Ingame" preserve="all" />
+    <type fullname="Battle.BT_Contents_Popup_CompanionPVP_IngameResult" preserve="all" />
+    <type fullname="Battle.BT_Contents_Popup_CompanionPVP_Meter" preserve="all" />
+    <type fullname="Battle.BT_Contents_Popup_GreaterRift" preserve="all" />
+    <type fullname="Battle.BT_DebuffObj" preserve="all" />
+    <type fullname="Battle.BT_Debuffs_GridItem" preserve="all" />
+    <type fullname="Battle.BT_Debuffs_GridItem_BuffingList" preserve="all" />
+    <type fullname="Battle.BT_Defaults_GridItem_CompanionProfile" preserve="all" />
+    <type fullname="Battle.BT_Eventers_GridItem_Invasion" preserve="all" />
+    <type fullname="Battle.BT_Eventers_GridItem_Invasion_RankingList" preserve="all" />
+    <type fullname="Battle.BT_Eventers_GridItem_Invasion_RewardList" preserve="all" />
+    <type fullname="Battle.BT_Eventers_GridItem_Ranker" preserve="all" />
+    <type fullname="Battle.BT_Eventers_Popup_Invasion" preserve="all" />
+    <type fullname="Battle.BT_Eventers_Popup_Invasion_Ranking" preserve="all" />
+    <type fullname="Battle.BT_EventTime_TimeCharger" preserve="all" />
+    <type fullname="Battle.BT_Failed_Popup" preserve="all" />
+    <type fullname="Battle.BT_FlyAtkObj__Base__Obj" preserve="all" />
+    <type fullname="Battle.BT_Gauge_Boss" preserve="all" />
+    <type fullname="Battle.BT_Item_Mine_Field_Obj" preserve="all" />
+    <type fullname="Battle.BT_Joystick_SkillArea" preserve="all" />
+    <type fullname="Battle.BT_Joystick_SkillBtn" preserve="all" />
+    <type fullname="Battle.BT_Particle" preserve="all" />
+    <type fullname="Battle.BT_Particle_Scale" preserve="all" />
+    <type fullname="Battle.BT_Popup_BuffingList" preserve="all" />
+    <type fullname="Battle.BT_Stage_GreaterRift_Minimap_Item" preserve="all" />
+    <type fullname="Battle.BT_Stage_GreaterRift_Minimap_RoomItem" preserve="all" />
+    <type fullname="Battle.BT_Stage_GreaterRift_RoomArrowUI" preserve="all" />
+    <type fullname="Battle.BT_StarSoul_Popup" preserve="all" />
+    <type fullname="Battle.BT_StarSoul_Popup_Result" preserve="all" />
+    <type fullname="Battle.BT_TimeCharger__Base" preserve="all" />
+    <type fullname="Battle.BT_UI_Eventers_RPS" preserve="all" />
+    <type fullname="Battle.BT_UI_Eventers_Window" preserve="all" />
+    <type fullname="Battle.BT_UI_RoundShow_Start" preserve="all" />
+    <type fullname="Battle.BT_UI_RoundShow_SummonBoss" preserve="all" />
+    <type fullname="Battle.Conqueror_Setting" preserve="all" />
+    <type fullname="Battle.DealMeter_Popup" preserve="all" />
+    <type fullname="Battle.FieldItem_WorldmapEventSticker" preserve="all" />
+    <type fullname="Battle.GridItem_Challenge" preserve="all" />
+    <type fullname="Battle.GridItem_Conqueror2Rewards" preserve="all" />
+    <type fullname="Battle.GridItem_ConquerorInfo" preserve="all" />
+    <type fullname="Battle.GridItem_Worldmap_EventerStatus" preserve="all" />
+    <type fullname="Battle.JM_MotionSprite" preserve="all" />
+    <type fullname="Battle.JM_SlicedSprite" preserve="all" />
+    <type fullname="Battle.JM_Sprite" preserve="all" />
+    <type fullname="Battle.Popup_Worldmap" preserve="all" />
+    <type fullname="Battle.Popup_Worldmap_ChngStageLv" preserve="all" />
+    <type fullname="Battle.Portal_GridItem_TotalPurification" preserve="all" />
+    <type fullname="Battle.Portal_Popup" preserve="all" />
+    <type fullname="Battle.Portal_Popup_PureStone" preserve="all" />
+    <type fullname="Battle.Portal_Popup_TotalPurification" preserve="all" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_GridItem_DealMeter" preserve="all" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_GridItem_ValueSet" preserve="all" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Panel" preserve="all" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Popup_DealMeter" preserve="all" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Popup_Entry" preserve="all" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Popup_RecordResult" preserve="all" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Popup_Setting" preserve="all" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Popup_SettingEnemy" preserve="all" />
+    <type fullname="Battle.UI_BaseScreen" preserve="all" />
+    <type fullname="Battle.UI_BaseScreen_PlayerInfo" preserve="all" />
+    <type fullname="Battle.UI_BaseScreen_StageInfo" preserve="all" />
+    <type fullname="Battle.UI_FarmingList" preserve="all" />
+    <type fullname="Bingo" preserve="all" />
+    <type fullname="Bingo_GridItem" preserve="all" />
+    <type fullname="Bingo_GridItem_Mission" preserve="all" />
+    <type fullname="BlackInOutScreen" preserve="all" />
+    <type fullname="BossRaid_Popup" preserve="all" />
+    <type fullname="BossRaid_RewardInfo_Popup" preserve="all" />
+    <type fullname="BT_Cheat_Item" preserve="all" />
+    <type fullname="BT_Contents_DreamDg_Boss_Popup" preserve="all" />
+    <type fullname="BT_Contents_DreamDg_Popup" preserve="all" />
+    <type fullname="BT_Contents_Gauge" preserve="all" />
+    <type fullname="BT_Contents_Gauge__ElementBarrier" preserve="all" />
+    <type fullname="BT_Contents_Gauge_HP" preserve="all" />
+    <type fullname="BT_Contents_Gauge_Rank_Checker" preserve="all" />
+    <type fullname="BT_Contents_Gauge_Timer" preserve="all" />
+    <type fullname="BT_Contents_GridItem_CompanionPVP_CompCondition" preserve="all" />
+    <type fullname="BT_Contents_GridItem_CompanionPVP_OffenceLog" preserve="all" />
+    <type fullname="BT_Contents_GridItem_CompanionPVP_ScrollProfile" preserve="all" />
+    <type fullname="BT_Contents_GridItem_CompanionPVP_TargetSelect" preserve="all" />
+    <type fullname="BT_Contents_GridItem_SubMission" preserve="all" />
+    <type fullname="BT_Contents_Notice" preserve="all" />
+    <type fullname="BT_Contents_Obj_Navigator" preserve="all" />
+    <type fullname="BT_Contents_Popup_CompanionPVP" preserve="all" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_Defence" preserve="all" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_Enchant" preserve="all" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_EnchantList" preserve="all" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_Offence" preserve="all" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_OffenceLog" preserve="all" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_SeasonStart" preserve="all" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_TargetSelect" preserve="all" />
+    <type fullname="BT_Contents_Result_Popup" preserve="all" />
+    <type fullname="BT_Contents_Result_Popup_GuildConquest" preserve="all" />
+    <type fullname="BT_Contents_Result_Popup_GuildRaid" preserve="all" />
+    <type fullname="BT_Contetns_DreamDg_BossRewardList" preserve="all" />
+    <type fullname="BT_Eventers_GridItem_WanderingMerchant" preserve="all" />
+    <type fullname="BT_Eventers_Popup_TreasureBox" preserve="all" />
+    <type fullname="BT_Eventers_Popup_WanderingMerchant" preserve="all" />
+    <type fullname="BT_Eventers_Popup_WorldBoss" preserve="all" />
+    <type fullname="BT_Eventers_Popup_WorldBossAfter" preserve="all" />
+    <type fullname="BT_Eventers_Popup_WorldBossTeamConfirm" preserve="all" />
+    <type fullname="BT_MakeObjects_Go_Default" preserve="all" />
+    <type fullname="BT_PureStone_MiniMap" preserve="all" />
+    <type fullname="BT_RandomActive" preserve="all" />
+    <type fullname="BT_RewardsLog_Popup" preserve="all" />
+    <type fullname="BT_SummonBoss_Intro" preserve="all" />
+    <type fullname="BT_UI_RoundClear" preserve="all" />
+    <type fullname="BT_UI_StageContentsStart" preserve="all" />
+    <type fullname="BT_WorldMap_Fog" preserve="all" />
+    <type fullname="BT_WorldMap_PurestoneLock" preserve="all" />
+    <type fullname="BT_WorldMap_WorldBoss_Fog" preserve="all" />
+    <type fullname="BulkRankUpResult_Popup" preserve="all" />
+    <type fullname="BulkResult_Popup" preserve="all" />
+    <type fullname="ButtonInteraction_OpenContents" preserve="all" />
+    <type fullname="Campfire_Popup" preserve="all" />
+    <type fullname="Card_AwakenEffects" preserve="all" />
+    <type fullname="Card_Detail" preserve="all" />
+    <type fullname="Card_Detail_Description" preserve="all" />
+    <type fullname="Card_Detail_Description_HelperSkill" preserve="all" />
+    <type fullname="Card_Detail_Description_Skill" preserve="all" />
+    <type fullname="Card_Detail_Description_WearingEffect" preserve="all" />
+    <type fullname="Card_RankSlider" preserve="all" />
+    <type fullname="Card_SpecialityOptionToggles" preserve="all" />
+    <type fullname="CardDeck_GridItem_Blindable_Default" preserve="all" />
+    <type fullname="CardDeck_GridItem_CompanionSpine" preserve="all" />
+    <type fullname="CardDeck_GridItem_Default" preserve="all" />
+    <type fullname="CardFormationCell" preserve="all" />
+    <type fullname="CardFormationDetailInfo" preserve="all" />
+    <type fullname="CardFormationPartyItem" preserve="all" />
+    <type fullname="Cards_GridItem_Companion" preserve="all" />
+    <type fullname="Cards_GridItem_Pet" preserve="all" />
+    <type fullname="Cards_Panel_Companion" preserve="all" />
+    <type fullname="Cards_Panel_Pet" preserve="all" />
+    <type fullname="Cards_Panel_Relic" preserve="all" />
+    <type fullname="Cards_Panel_Skill" preserve="all" />
+    <type fullname="Cards_Popup" preserve="all" />
+    <type fullname="Cards_Popup_ElementInfo" preserve="all" />
+    <type fullname="Cards_Popup_Transcendence" preserve="all" />
+    <type fullname="CardSkin_Popup" preserve="all" />
+    <type fullname="ChainLightning" preserve="all" />
+    <type fullname="Character_GridItem_EmblemEffect" preserve="all" />
+    <type fullname="Character_GridItem_EmblemListRow" preserve="all" />
+    <type fullname="Character_GridItem_JobAwakening" preserve="all" />
+    <type fullname="Character_GridItem_MonsterCardEffect" preserve="all" />
+    <type fullname="Character_GridItem_MonsterCardEffectGroup" preserve="all" />
+    <type fullname="Character_GridItem_MonsterCardLarge" preserve="all" />
+    <type fullname="Character_GridItem_MonsterCardSmall" preserve="all" />
+    <type fullname="Character_Panel_Constellation" preserve="all" />
+    <type fullname="Character_Panel_Emblem" preserve="all" />
+    <type fullname="Character_Panel_Job" preserve="all" />
+    <type fullname="Character_Panel_MonsterCard" preserve="all" />
+    <type fullname="Character_Panel_SoulEnhance" preserve="all" />
+    <type fullname="Character_Popup" preserve="all" />
+    <type fullname="Character_Popup_EmblemAltarDetail" preserve="all" />
+    <type fullname="Character_Popup_EmblemDetail" preserve="all" />
+    <type fullname="Character_Popup_Job_Inform" preserve="all" />
+    <type fullname="Character_Popup_JobAbilityBreakThrough" preserve="all" />
+    <type fullname="Character_Popup_JobAbilityReinforce" preserve="all" />
+    <type fullname="Character_Popup_JobAwakening" preserve="all" />
+    <type fullname="Character_Popup_MonsterCardDetail" preserve="all" />
+    <type fullname="Character_Popup_SoulEnhance_Rate" preserve="all" />
+    <type fullname="CharacterPanelSlate" preserve="all" />
+    <type fullname="ChatBanListCell" preserve="all" />
+    <type fullname="ChatBanListPopup" preserve="all" />
+    <type fullname="ChatCellBase" preserve="all" />
+    <type fullname="ChatChangeChannelPopup" preserve="all" />
+    <type fullname="ChatTextListCell" preserve="all" />
+    <type fullname="ChatTextListItem" preserve="all" />
+    <type fullname="ChatUI" preserve="all" />
+    <type fullname="CHJ.Cheat.UI.DamageCalculatePanel" preserve="all" />
+    <type fullname="CHJ.Cheat.UI.MyStatPanel" preserve="all" />
+    <type fullname="CHJ.Cheat.UI.Panel_Cheat" preserve="all" />
+    <type fullname="CHJ.Cheat.UI.StatOverlayPanel" preserve="all" />
+    <type fullname="CircleOutline" preserve="all" />
+    <type fullname="Coffee.UIExtensions.UIFlip" preserve="all" />
+    <type fullname="Coffee.UIExtensions.UIShadow" preserve="all" />
+    <type fullname="CollaboEvent_GridItem_Misson" preserve="all" />
+    <type fullname="CollaboEvent_GridItem_Ranking" preserve="all" />
+    <type fullname="CollaboEvent_GridItem_StoryReplay" preserve="all" />
+    <type fullname="CollaboEvent_MLN" preserve="all" />
+    <type fullname="CollaboEvent_Popup_CardBonus" preserve="all" />
+    <type fullname="CollaboEvent_Popup_CardBonus_GridItem" preserve="all" />
+    <type fullname="CollaboEvent_Popup_Mission" preserve="all" />
+    <type fullname="CollaboEvent_Popup_Ranking" preserve="all" />
+    <type fullname="CollaboEvent_Popup_Shop" preserve="all" />
+    <type fullname="CollaboEvent_Popup_StoryReplay" preserve="all" />
+    <type fullname="CollaboEvent_SummonersWar" preserve="all" />
+    <type fullname="CollaboEvent_Zenonia" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_Popup_Decompose" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_Popup_ExchangeSlider" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_Popup_Guide" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_Popup_GuidePiece" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_Popup_ItemViewer" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_Popup_RuneBag" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_Popup_RuneBagPiece" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_Rune" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_RunePiece" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_Select" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_Set" preserve="all" />
+    <type fullname="CollaboSW.CollaboSW_RuneCollector_SetPiece" preserve="all" />
+    <type fullname="CollaboSW_Tower" preserve="all" />
+    <type fullname="CollaboSW_Tower_CardSlot" preserve="all" />
+    <type fullname="CollaboSW_Tower_CardSlot_Simple" preserve="all" />
+    <type fullname="CollaboSW_Tower_GridItem_Card" preserve="all" />
+    <type fullname="CollaboSW_Tower_GridItem_Card_Pair" preserve="all" />
+    <type fullname="CollaboSW_Tower_GridItem_Card_Title" preserve="all" />
+    <type fullname="CollaboSW_Tower_GridItem_Floor" preserve="all" />
+    <type fullname="CollaboSW_Tower_GridItem_FloorStart" preserve="all" />
+    <type fullname="CollaboSW_Tower_GridItem_FloorTop" preserve="all" />
+    <type fullname="CollaboSW_Tower_Popup_Card" preserve="all" />
+    <type fullname="Commission_GridItem" preserve="all" />
+    <type fullname="Commission_Panel" preserve="all" />
+    <type fullname="CommonToggleGroup" preserve="all" />
+    <type fullname="ConquerorBookmarkListCell" preserve="all" />
+    <type fullname="Constellation_Bridge" preserve="all" />
+    <type fullname="Constellation_Detail_Info" preserve="all" />
+    <type fullname="Constellation_Detail_Panel_Base" preserve="all" />
+    <type fullname="Constellation_Detail_Popup" preserve="all" />
+    <type fullname="Constellation_Detail_Stat" preserve="all" />
+    <type fullname="Constellation_GridItem" preserve="all" />
+    <type fullname="Constellation_Rate_Popup" preserve="all" />
+    <type fullname="Constellation_Type_Panel" preserve="all" />
+    <type fullname="ConstellationTabCell" preserve="all" />
+    <type fullname="ContentsOpen_Popup" preserve="all" />
+    <type fullname="CoreGridCell" preserve="all" />
+    <type fullname="CoreGrowthDetailInfo" preserve="all" />
+    <type fullname="CoreRowCell" preserve="all" />
+    <type fullname="CoreShuffleConfirmPopup" preserve="all" />
+    <type fullname="CoreStatBoardCell" preserve="all" />
+    <type fullname="CoreStatBoardDetailInfo" preserve="all" />
+    <type fullname="CoreStatBoardGroupCell" preserve="all" />
+    <type fullname="CoreStatCell" preserve="all" />
+    <type fullname="Currency_Info_Popup" preserve="all" />
+    <type fullname="CustomPackageSelectSlot" preserve="all" />
+    <type fullname="CustomPackageSettingGroup" preserve="all" />
+    <type fullname="CustomPickUpCardCell" preserve="all" />
+    <type fullname="CustomPickUpSettingSlot" preserve="all" />
+    <type fullname="CustomPickupSingleDetailInfo" preserve="all" />
+    <type fullname="CutScene_Companion_Gacha" preserve="all" />
+    <type fullname="CutScene_Emblem_Gacha" preserve="all" />
+    <type fullname="CutScene_Job_Gacha" preserve="all" />
+    <type fullname="CutScene_MonsterCard_Gacha" preserve="all" />
+    <type fullname="CutScene_Pet_Gacha" preserve="all" />
+    <type fullname="CutScene_Relic_Gacha" preserve="all" />
+    <type fullname="CutScene_Skill_Gacha" preserve="all" />
+    <type fullname="CutScene_Supporter_Gacha" preserve="all" />
+    <type fullname="Default_GaugeItem" preserve="all" />
+    <type fullname="Default_GaugeItem_Rank" preserve="all" />
+    <type fullname="Default_GridItem" preserve="all" />
+    <type fullname="Default_GridItem__Scroll" preserve="all" />
+    <type fullname="Default_GridItem_Card" preserve="all" />
+    <type fullname="Default_GridItem_Card__Scroll" preserve="all" />
+    <type fullname="Default_GridItem_Collection" preserve="all" />
+    <type fullname="Default_GridItem_Emblem__Scroll" preserve="all" />
+    <type fullname="Default_GridItem_Job" preserve="all" />
+    <type fullname="Default_GridItem_PartsStat" preserve="all" />
+    <type fullname="Default_GridItem_Shop" preserve="all" />
+    <type fullname="Default_GridItem_SoulForge__Scroll" preserve="all" />
+    <type fullname="Default_GridItem_Synerge" preserve="all" />
+    <type fullname="Default_GridItem_TradeShop" preserve="all" />
+    <type fullname="Default_GridItem_Transform" preserve="all" />
+    <type fullname="Default_GridItem_Txt__Scroll" preserve="all" />
+    <type fullname="Default_Popup_Guide" preserve="all" />
+    <type fullname="Default_Popup_PrintMemoryTex" preserve="all" />
+    <type fullname="Default_Popup_SigilOfCrawley" preserve="all" />
+    <type fullname="Default_Popup_SigilOfCrawleyResult" preserve="all" />
+    <type fullname="Default_Popup_TradeShop" preserve="all" />
+    <type fullname="DestinyRoomAniEvent" preserve="all" />
+    <type fullname="DestinyRoomCardSlotCell" preserve="all" />
+    <type fullname="DestinyRoomPopUp" preserve="all" />
+    <type fullname="DestinyRoomRoulette" preserve="all" />
+    <type fullname="DestinyRoomRouletteCell" preserve="all" />
+    <type fullname="DialogueBg" preserve="all" />
+    <type fullname="DialogueChoice" preserve="all" />
+    <type fullname="DialogueImageCharacter" preserve="all" />
+    <type fullname="DialogueSpeech" preserve="all" />
+    <type fullname="DialogueSpineCharacter" preserve="all" />
+    <type fullname="DontDestroyObejct" preserve="all" />
+    <type fullname="DungeonGuide_Popup" preserve="all" />
+    <type fullname="ejyAutoNextRoom" preserve="all" />
+    <type fullname="ElementalAbyssCardCell" preserve="all" />
+    <type fullname="ElementalAbyssCardCostCell" preserve="all" />
+    <type fullname="ElementalAbyssCardDetailInfo" preserve="all" />
+    <type fullname="ElementalAbyssRewardCell" preserve="all" />
+    <type fullname="ElementalAbyssRewardPopup" preserve="all" />
+    <type fullname="ElementalAbyssStageCardPopUp" preserve="all" />
+    <type fullname="ElementalAbyssStageCell" preserve="all" />
+    <type fullname="ElementalAbyssStageChoiceCell" preserve="all" />
+    <type fullname="ElementalAbyssStageChoicePopUp" preserve="all" />
+    <type fullname="ElementalAbyssStageInfoPopUp" preserve="all" />
+    <type fullname="ElementalInvasionBossInfoPopUp" preserve="all" />
+    <type fullname="ElementalInvasionCardCell" preserve="all" />
+    <type fullname="ElementalInvasionCardDetailInfo" preserve="all" />
+    <type fullname="ElementalInvasionCardPopUp" preserve="all" />
+    <type fullname="ElementalInvasionRankingBaseCell" preserve="all" />
+    <type fullname="ElementalInvasionRankingPopUp" preserve="all" />
+    <type fullname="ElementalInvasionStageCell" preserve="all" />
+    <type fullname="ElementalInvasionStageChoicePopUp" preserve="all" />
+    <type fullname="ElementalResonance_Popup_GiverSetting" preserve="all" />
+    <type fullname="ElementalResonance_Popup_RecieverSetting" preserve="all" />
+    <type fullname="Enhance_Ability_Reinforce" preserve="all" />
+    <type fullname="Enhance_GridItem_Ability" preserve="all" />
+    <type fullname="Enhance_GridItem_Awaken_Catalyst_Main" preserve="all" />
+    <type fullname="Enhance_GridItem_Awaken_Catalyst_Sub" preserve="all" />
+    <type fullname="Enhance_GridItem_Awaken_Stat" preserve="all" />
+    <type fullname="Enhance_GridItem_Training" preserve="all" />
+    <type fullname="Enhance_Panel_Ability" preserve="all" />
+    <type fullname="Enhance_Panel_Awaken" preserve="all" />
+    <type fullname="Enhance_Panel_AwakenAffects" preserve="all" />
+    <type fullname="Enhance_Panel_Mastery" preserve="all" />
+    <type fullname="Enhance_Panel_Training" preserve="all" />
+    <type fullname="Enhance_Popup" preserve="all" />
+    <type fullname="Enhance_Popup_AbilityRate" preserve="all" />
+    <type fullname="Enhance_Popup_Awaken_PromoteEntry" preserve="all" />
+    <type fullname="Enhance_Popup_MasteryReset" preserve="all" />
+    <type fullname="Event_CollaboRoulette_Panel" preserve="all" />
+    <type fullname="Event_DailyMissionPass_GridItem" preserve="all" />
+    <type fullname="Event_DailyMissionPass_Popup" preserve="all" />
+    <type fullname="Event_DailyMissionPass_Tab" preserve="all" />
+    <type fullname="Event_GridItem_Shop" preserve="all" />
+    <type fullname="Event_GridItem_StoryReplay_Old" preserve="all" />
+    <type fullname="Event_GrowRace" preserve="all" />
+    <type fullname="Event_GrowRace_GridItem_Mission" preserve="all" />
+    <type fullname="Event_GrowRace_GridItem_Reward" preserve="all" />
+    <type fullname="Event_GrowRace_Popup_Reward" preserve="all" />
+    <type fullname="Event_Minigame_Panel" preserve="all" />
+    <type fullname="Event_Panel_FriendInvitation" preserve="all" />
+    <type fullname="Event_Popup_StoryReplay_Old" preserve="all" />
+    <type fullname="Event_Roulette_Panel" preserve="all" />
+    <type fullname="Event_StageRace" preserve="all" />
+    <type fullname="Event_Tab_StoryReplay_Old" preserve="all" />
+    <type fullname="EventMissionCell" preserve="all" />
+    <type fullname="EventMissionPopUp" preserve="all" />
+    <type fullname="EventRanking_GridItem_RankingList" preserve="all" />
+    <type fullname="EventRanking_GridItem_RewardList" preserve="all" />
+    <type fullname="EventRanking_Popup" preserve="all" />
+    <type fullname="Events_MainTab" preserve="all" />
+    <type fullname="Events_Popup" preserve="all" />
+    <type fullname="Exclusive_Popup_SlotReinforce" preserve="all" />
+    <type fullname="Exploration_GridItem" preserve="all" />
+    <type fullname="Exploration_GridItem_Condition" preserve="all" />
+    <type fullname="Exploration_GridItem_Condition_Small" preserve="all" />
+    <type fullname="Exploration_Panel" preserve="all" />
+    <type fullname="Exploration_Popup_Detail" preserve="all" />
+    <type fullname="Filter_Panel" preserve="all" />
+    <type fullname="FiveDaysMission" preserve="all" />
+    <type fullname="FiveDaysMission_DayTab" preserve="all" />
+    <type fullname="FiveDaysMission_GridItem" preserve="all" />
+    <type fullname="FX_RotationCtrl" preserve="all" />
+    <type fullname="Gacha_GridItem_Banner" preserve="all" />
+    <type fullname="Gacha_GridItem_Custom" preserve="all" />
+    <type fullname="Gacha_GridItem_TabPickUpBanner" preserve="all" />
+    <type fullname="Gacha_Panel" preserve="all" />
+    <type fullname="Gacha_Panel_BannerManager" preserve="all" />
+    <type fullname="Gacha_Popup_CustomPickUpSetting" preserve="all" />
+    <type fullname="Gacha_Popup_TicketConfirm" preserve="all" />
+    <type fullname="GameObjectLifeTime" preserve="all" />
+    <type fullname="GameObjectShutter" preserve="all" />
+    <type fullname="Gemstone_GridItem_GemRefineSlot" preserve="all" />
+    <type fullname="GemStone_GridItem_GemRefineTotalStat" preserve="all" />
+    <type fullname="GemStone_Merge_Result_Popup" preserve="all" />
+    <type fullname="GemStone_Panel_Enchant" preserve="all" />
+    <type fullname="GemStone_Panel_EquipExtract" preserve="all" />
+    <type fullname="GemStone_Panel_Merge" preserve="all" />
+    <type fullname="GemStone_Panel_Refine" preserve="all" />
+    <type fullname="GemStone_Popup" preserve="all" />
+    <type fullname="GemStone_Popup_GemRefineAddGauge" preserve="all" />
+    <type fullname="GemStone_Popup_GemRefineCore" preserve="all" />
+    <type fullname="GemStone_Popup_GemRefineTotalStat" preserve="all" />
+    <type fullname="GimmickInfo" preserve="all" />
+    <type fullname="GridItem_BossRaid_RewardInfo_Grade" preserve="all" />
+    <type fullname="GridItem_BossRaid_RewardInfo_Ranking" preserve="all" />
+    <type fullname="GridItem_BulkResult_Cards" preserve="all" />
+    <type fullname="GridItem_BulkResult_Default" preserve="all" />
+    <type fullname="GridItem_BulkResult_Job" preserve="all" />
+    <type fullname="GridItem_BulkResult_MonsterCard" preserve="all" />
+    <type fullname="GridItem_CheckBox" preserve="all" />
+    <type fullname="GridItem_ChoiceItem" preserve="all" />
+    <type fullname="GridItem_Collection" preserve="all" />
+    <type fullname="GridItem_Collection_Stat" preserve="all" />
+    <type fullname="GridItem_ConquerorRewards" preserve="all" />
+    <type fullname="GridItem_ConquestChallengeLog" preserve="all" />
+    <type fullname="GridItem_Consum" preserve="all" />
+    <type fullname="GridItem_ContentsItem" preserve="all" />
+    <type fullname="GridItem_Currency" preserve="all" />
+    <type fullname="GridItem_CurrencyList" preserve="all" />
+    <type fullname="GridItem_DailyStreak" preserve="all" />
+    <type fullname="GridItem_DreamDg_Boss" preserve="all" />
+    <type fullname="GridItem_DreamDg_BossReward" preserve="all" />
+    <type fullname="GridItem_GachaRate" preserve="all" />
+    <type fullname="GridItem_GachaRate_Character" preserve="all" />
+    <type fullname="GridItem_GemInfo" preserve="all" />
+    <type fullname="GridItem_GemList" preserve="all" />
+    <type fullname="GridItem_GemRefine" preserve="all" />
+    <type fullname="GridItem_GemSynergySlot" preserve="all" />
+    <type fullname="GridItem_GuildConquestField" preserve="all" />
+    <type fullname="GridItem_GuildConquestFieldReport" preserve="all" />
+    <type fullname="GridItem_GuildConquestHeader" preserve="all" />
+    <type fullname="GridItem_GuildConquestMemberReport" preserve="all" />
+    <type fullname="GridItem_GuildConquestRecord" preserve="all" />
+    <type fullname="GridItem_GuildConquestResult" preserve="all" />
+    <type fullname="GridItem_Item_Option" preserve="all" />
+    <type fullname="GridItem_Item_PathOfGet" preserve="all" />
+    <type fullname="GridItem_Master" preserve="all" />
+    <type fullname="GridItem_Mission" preserve="all" />
+    <type fullname="GridItem_Mission__Scroll" preserve="all" />
+    <type fullname="GridItem_Option_Stat" preserve="all" />
+    <type fullname="GridItem_PackageComponent" preserve="all" />
+    <type fullname="GridItem_Pass" preserve="all" />
+    <type fullname="GridItem_PresetChoiceContents" preserve="all" />
+    <type fullname="GridItem_ProductNomal" preserve="all" />
+    <type fullname="GridItem_ProductPackage" preserve="all" />
+    <type fullname="GridItem_Ranking" preserve="all" />
+    <type fullname="GridItem_RankingReward" preserve="all" />
+    <type fullname="GridItem_Setting_Language" preserve="all" />
+    <type fullname="GridItem_Setting_Ratio" preserve="all" />
+    <type fullname="GridItem_Setting_Slider" preserve="all" />
+    <type fullname="GridItem_Setting_Toggle" preserve="all" />
+    <type fullname="GridItem_ShopBanner" preserve="all" />
+    <type fullname="GridItem_Small" preserve="all" />
+    <type fullname="GridItem_SmartPackage_Tab" preserve="all" />
+    <type fullname="Griditem_StageGroup" preserve="all" />
+    <type fullname="GridItem_StarStat" preserve="all" />
+    <type fullname="GridItem_TrialTower_DailyReward" preserve="all" />
+    <type fullname="GridItem_TrialTower_Floor" preserve="all" />
+    <type fullname="GridItem_UltimateCollection" preserve="all" />
+    <type fullname="GridItem_UseItem_Rate" preserve="all" />
+    <type fullname="GridItem_UserInfo_Card" preserve="all" />
+    <type fullname="GridItem_UserInfo_Profile_Scroll" preserve="all" />
+    <type fullname="GridItem_WeakPoint" preserve="all" />
+    <type fullname="GridItemCurrencyAutoInitializer" preserve="all" />
+    <type fullname="GuidanceDetailInfo" preserve="all" />
+    <type fullname="GuidanceDetailInfoChallengeCell" preserve="all" />
+    <type fullname="GuidanceDetailInfoGrowthCell" preserve="all" />
+    <type fullname="GuidanceDetailInfoPackageCell" preserve="all" />
+    <type fullname="GuidanceDetailInfoTagetCell" preserve="all" />
+    <type fullname="GuidanceGrowthDetailInfo" preserve="all" />
+    <type fullname="GuidancePageCell" preserve="all" />
+    <type fullname="GuidancePageInfo" preserve="all" />
+    <type fullname="GuidancePanel" preserve="all" />
+    <type fullname="GuidanceSubTabCell" preserve="all" />
+    <type fullname="GuidanceTabCell" preserve="all" />
+    <type fullname="Guide_GridItem" preserve="all" />
+    <type fullname="Guide_Help_Popup" preserve="all" />
+    <type fullname="GuideButtonBuilder" preserve="all" />
+    <type fullname="Guild_Buff" preserve="all" />
+    <type fullname="Guild_Conquest" preserve="all" />
+    <type fullname="Guild_Dungeon" preserve="all" />
+    <type fullname="Guild_GridItem_Donate" preserve="all" />
+    <type fullname="Guild_GridItem_EmblemList" preserve="all" />
+    <type fullname="Guild_GridItem_Guild" preserve="all" />
+    <type fullname="Guild_GridItem_LevelReward" preserve="all" />
+    <type fullname="Guild_GridItem_Log" preserve="all" />
+    <type fullname="Guild_GridItem_Member" preserve="all" />
+    <type fullname="Guild_GridItem_Raid_InGuildRanking" preserve="all" />
+    <type fullname="Guild_GridItem_Raid_RewardList" preserve="all" />
+    <type fullname="Guild_GridItem_Rank" preserve="all" />
+    <type fullname="Guild_GridItem_Shop" preserve="all" />
+    <type fullname="Guild_GridItem_WaitingList" preserve="all" />
+    <type fullname="Guild_Info" preserve="all" />
+    <type fullname="Guild_Panel" preserve="all" />
+    <type fullname="Guild_Popup_ApplyList" preserve="all" />
+    <type fullname="Guild_Popup_ChangeEmblem" preserve="all" />
+    <type fullname="Guild_Popup_Creation" preserve="all" />
+    <type fullname="Guild_Popup_DailyRewards" preserve="all" />
+    <type fullname="Guild_Popup_Donate" preserve="all" />
+    <type fullname="Guild_Popup_Found" preserve="all" />
+    <type fullname="Guild_Popup_GuildInfo" preserve="all" />
+    <type fullname="Guild_Popup_LevelReward" preserve="all" />
+    <type fullname="Guild_Popup_Log" preserve="all" />
+    <type fullname="Guild_Popup_Manage" preserve="all" />
+    <type fullname="Guild_Popup_NoticeEdit" preserve="all" />
+    <type fullname="Guild_Popup_Raid_InGuildRanking" preserve="all" />
+    <type fullname="Guild_Popup_Raid_RewardInfo" preserve="all" />
+    <type fullname="Guild_Popup_Ranking" preserve="all" />
+    <type fullname="Guild_Popup_WaitingList" preserve="all" />
+    <type fullname="Guild_Raid" preserve="all" />
+    <type fullname="Guild_Shop" preserve="all" />
+    <type fullname="GuildConquest_Buff" preserve="all" />
+    <type fullname="GuildConquest_Popup_InGuildRanking" preserve="all" />
+    <type fullname="GuildConquest_Popup_InGuildRanking_Cell" preserve="all" />
+    <type fullname="GuildConquestLogCell" preserve="all" />
+    <type fullname="GuildField_Buff" preserve="all" />
+    <type fullname="Highpass_RewardSlot" preserve="all" />
+    <type fullname="HighpassTab_Day" preserve="all" />
+    <type fullname="HpCaculateRecordView_Cell_Filter" preserve="all" />
+    <type fullname="HpCalculateRecordView" preserve="all" />
+    <type fullname="HpCalculateRecordView_Cell_Detail" preserve="all" />
+    <type fullname="HpCalculateRecordView_Cell_Record" preserve="all" />
+    <type fullname="ImageColorAnimation" preserve="all" />
+    <type fullname="ImageLoader" preserve="all" />
+    <type fullname="ImageLoader_Localized_Server" preserve="all" />
+    <type fullname="IndicatorItem" preserve="all" />
+    <type fullname="InvasionCoreMainPopup" preserve="all" />
+    <type fullname="InvasionCorePanel" preserve="all" />
+    <type fullname="InvasionCoreShuffleResultPopup" preserve="all" />
+    <type fullname="InvasionCoreShuffleStatCompPopup" preserve="all" />
+    <type fullname="Item_Drop_Data" preserve="all" />
+    <type fullname="Item_Drop_Obj" preserve="all" />
+    <type fullname="Item_Drop_Obj_FSM" preserve="all" />
+    <type fullname="Item_Window_Inventory" preserve="all" />
+    <type fullname="Item_Window_Inventory_ExtractReview" preserve="all" />
+    <type fullname="Item_Window_Inventory_SelectFilters" preserve="all" />
+    <type fullname="Item_Window_Loading" preserve="all" />
+    <type fullname="Items_Popup_Inform_Supporter" preserve="all" />
+    <type fullname="Items_Popup_Transform" preserve="all" />
+    <type fullname="ItemSelectInfoPopUp" preserve="all" />
+    <type fullname="JM_AtlasCacher" preserve="all" />
+    <type fullname="JM_Modifier" preserve="all" />
+    <type fullname="JM_ScaleAspectFollower" preserve="all" />
+    <type fullname="JM_ScrollView" preserve="all" />
+    <type fullname="JM_SFX" preserve="all" />
+    <type fullname="JM_Toggle_Simple" preserve="all" />
+    <type fullname="JoystickComponentCtrl" preserve="all" />
+    <type fullname="LasksGiftCell" preserve="all" />
+    <type fullname="LasksGiftDataInfo" preserve="all" />
+    <type fullname="LasksGiftPopUp" preserve="all" />
+    <type fullname="LasksGiftRewardItemCell" preserve="all" />
+    <type fullname="LB_Alchemy_GridItem_Convert" preserve="all" />
+    <type fullname="LB_Alchemy_GridItem_Recycle" preserve="all" />
+    <type fullname="LB_Alchemy_Griditem_UltimateItem" preserve="all" />
+    <type fullname="LB_AlchemyModify_AddGemSlot" preserve="all" />
+    <type fullname="LB_AlchemyModify_AddGemSlotResult_Popup" preserve="all" />
+    <type fullname="LB_AlchemyModify_StatModify" preserve="all" />
+    <type fullname="LB_AlchemyModify_UltimateLvUp" preserve="all" />
+    <type fullname="LB_AlchemyModify_UltMasterPiece" preserve="all" />
+    <type fullname="LB_AlchemyParts" preserve="all" />
+    <type fullname="LB_AlchemyParts_Collection_Popup" preserve="all" />
+    <type fullname="LB_AlchemyParts_CreateEffect" preserve="all" />
+    <type fullname="LB_AlchemyParts_CreatePopup" preserve="all" />
+    <type fullname="LB_AlchemyUltimateModify" preserve="all" />
+    <type fullname="LB_Campfire_GridItem_Epi" preserve="all" />
+    <type fullname="LB_Campfire_Tab" preserve="all" />
+    <type fullname="LB_ElementalResonance_Panel" preserve="all" />
+    <type fullname="LB_ElementalResonance_Popup" preserve="all" />
+    <type fullname="LB_Popup_RacoonShop" preserve="all" />
+    <type fullname="LB_TV_Element0" preserve="all" />
+    <type fullname="LB_TV_Element1" preserve="all" />
+    <type fullname="LB_TV_Element2" preserve="all" />
+    <type fullname="LB_UIMastery_Node" preserve="all" />
+    <type fullname="LB_UIMastery_Root" preserve="all" />
+    <type fullname="LB_UIMastery_Step" preserve="all" />
+    <type fullname="LevelUp_Popup" preserve="all" />
+    <type fullname="Lobby.Bar_Popup_Upgrade" preserve="all" />
+    <type fullname="Lobby.LB_Alchemy" preserve="all" />
+    <type fullname="Lobby.LB_AlchemyConvert" preserve="all" />
+    <type fullname="Lobby.LB_AlchemyProduction" preserve="all" />
+    <type fullname="Lobby.LB_Bar_GridItem_Menu" preserve="all" />
+    <type fullname="Lobby.LB_Bar_GridItem_Product" preserve="all" />
+    <type fullname="Lobby.LB_Construction" preserve="all" />
+    <type fullname="Lobby.LB_ConstructionCondition" preserve="all" />
+    <type fullname="Lobby.LB_ConstructionShortcut" preserve="all" />
+    <type fullname="Lobby.LB_ConstructionShortcutItem" preserve="all" />
+    <type fullname="Lobby.LB_ProductionItem" preserve="all" />
+    <type fullname="Lobby.LB_RacoonShop_GridItem_Product" preserve="all" />
+    <type fullname="Lobby.LB_UIMain" preserve="all" />
+    <type fullname="Lobby.ShelterObject" preserve="all" />
+    <type fullname="Lobby.ShelterObjectInteraction" preserve="all" />
+    <type fullname="Lobby.UI_MaterialItem" preserve="all" />
+    <type fullname="LPositionAnimation" preserve="all" />
+    <type fullname="LRotationAnimation" preserve="all" />
+    <type fullname="LScaleAnimation" preserve="all" />
+    <type fullname="Mail_GridItem" preserve="all" />
+    <type fullname="Mail_Popup" preserve="all" />
+    <type fullname="MiniBanner" preserve="all" />
+    <type fullname="MiniBannerManager" preserve="all" />
+    <type fullname="Minigame.LeftRight.Minigame_LeftRight_ObjDetail" preserve="all" />
+    <type fullname="Minigame.LeftRight.MinigameController_LeftRight" preserve="all" />
+    <type fullname="Minigame.LeftRight.UI.Minigame_LeftRight_Obj" preserve="all" />
+    <type fullname="Minigame.LeftRight.UI.Minigame_LeftRight_ResultView" preserve="all" />
+    <type fullname="Minigame.LeftRight.UI.Minigame_LeftRight_View" preserve="all" />
+    <type fullname="Minigame.Minigame_Pause_Modal" preserve="all" />
+    <type fullname="Minigame_CommonSetting" preserve="all" />
+    <type fullname="Mission_Window_Inventory" preserve="all" />
+    <type fullname="MultiPartyFormationPopup" preserve="all" />
+    <type fullname="NewBossRaidPopUp" preserve="all" />
+    <type fullname="NormalEquipMode" preserve="all" />
+    <type fullname="OpenRateDetail" preserve="all" />
+    <type fullname="OpenWithdrawDetail" preserve="all" />
+    <type fullname="Optimization_Material" preserve="all" />
+    <type fullname="Optimization_SkeletonAnimation" preserve="all" />
+    <type fullname="Outline" preserve="all" />
+    <type fullname="Panel_Base" preserve="all" />
+    <type fullname="Panel_GuildConquestMemberReport" preserve="all" />
+    <type fullname="Panel_GuildConquestResult" preserve="all" />
+    <type fullname="Parts_GridItem_Choice" preserve="all" />
+    <type fullname="Parts_Popup_Choice" preserve="all" />
+    <type fullname="Pass_MainTab" preserve="all" />
+    <type fullname="Pass_Panel" preserve="all" />
+    <type fullname="Pass_RewardSlot" preserve="all" />
+    <type fullname="Pass_SubTab" preserve="all" />
+    <type fullname="PetGarden.Logic.PetGardenPetItem" preserve="all" />
+    <type fullname="PetGarden.Logic.PetGardenPlace" preserve="all" />
+    <type fullname="PetGarden.UI.PetGarden_GridItem_Card" preserve="all" />
+    <type fullname="PetGarden.UI.PetGarden_GridItem_TileSpec" preserve="all" />
+    <type fullname="PetGarden.UI.PetGarden_GridItem_TileStat" preserve="all" />
+    <type fullname="PetGarden.UI.PetGarden_Panel" preserve="all" />
+    <type fullname="PetGarden.UI.PetGarden_Popup_TileDetail" preserve="all" />
+    <type fullname="PetGarden.UI.PetGarden_Popup_TileLvUp" preserve="all" />
+    <type fullname="PetGarden.UI.PetGarden_Popup_TotalTile" preserve="all" />
+    <type fullname="PetGarden.UI.PetGarden_Popup_TotalTile_Stat" preserve="all" />
+    <type fullname="PetGarden.UI.PetGarden_Popup_TotalTile_Tree" preserve="all" />
+    <type fullname="PetGarden_GridItem_Product" preserve="all" />
+    <type fullname="PetGarden_GridItem_TileDetail_Product" preserve="all" />
+    <type fullname="PlayerTitleBackground" preserve="all" />
+    <type fullname="Pocket_Equip_Panel_ElementRune" preserve="all" />
+    <type fullname="Pocket_Equip_Panel_Exclusive" preserve="all" />
+    <type fullname="Pocket_Inform_Panel_ElementRune" preserve="all" />
+    <type fullname="Pocket_Inform_Panel_Exclusive" preserve="all" />
+    <type fullname="Pocket_Popup" preserve="all" />
+    <type fullname="Pocket_Popup_Equip" preserve="all" />
+    <type fullname="Pocket_Popup_Inform" preserve="all" />
+    <type fullname="Pocket_Popup_Panel_ElementRune" preserve="all" />
+    <type fullname="Pocket_Popup_Panel_Exclusive" preserve="all" />
+    <type fullname="Popup_BuyItem" preserve="all" />
+    <type fullname="Popup_ChoiceItem" preserve="all" />
+    <type fullname="Popup_Confirm" preserve="all" />
+    <type fullname="Popup_Confirm_MaterialCost" preserve="all" />
+    <type fullname="Popup_Confirm_OfflineRewards" preserve="all" />
+    <type fullname="Popup_Dummy" preserve="all" />
+    <type fullname="Popup_GetBag" preserve="all" />
+    <type fullname="Popup_GuildConquerorLog" preserve="all" />
+    <type fullname="Popup_GuildConquestFieldReport" preserve="all" />
+    <type fullname="Popup_GuildConquestMemberReport" preserve="all" />
+    <type fullname="Popup_GuildConquestRecords" preserve="all" />
+    <type fullname="Popup_GuildConquestResult" preserve="all" />
+    <type fullname="Popup_MyrankGoUp" preserve="all" />
+    <type fullname="Popup_SortedTooltip" preserve="all" />
+    <type fullname="Popup_SoulsphereTooltip" preserve="all" />
+    <type fullname="Popup_Stage" preserve="all" />
+    <type fullname="Popup_Tooltip_Common" preserve="all" />
+    <type fullname="Popup_Tooltip_IconAndDesc" preserve="all" />
+    <type fullname="Popup_Tooltip_Old" preserve="all" />
+    <type fullname="Popup_UseItem_ContainInfo" preserve="all" />
+    <type fullname="Popup_UseItem_Merge" preserve="all" />
+    <type fullname="Popup_Worldmap_Rewards" preserve="all" />
+    <type fullname="Popup_Worldmap_StageLog" preserve="all" />
+    <type fullname="Portal_Pop_GuildConquest_MidGuild" preserve="all" />
+    <type fullname="Portal_Popup_GuildConquestInfo" preserve="all" />
+    <type fullname="Portal_Popup_GuildConquestNoti" preserve="all" />
+    <type fullname="PowerSavingUI" preserve="all" />
+    <type fullname="PowerSavingUI_Battery" preserve="all" />
+    <type fullname="Preset_Popup" preserve="all" />
+    <type fullname="ProbabilityInfo_Popup" preserve="all" />
+    <type fullname="PuzzleEventMiniBanner" preserve="all" />
+    <type fullname="PuzzleEventPageInfo" preserve="all" />
+    <type fullname="PuzzleEventPanel" preserve="all" />
+    <type fullname="PuzzleEventRewardCell" preserve="all" />
+    <type fullname="PuzzleEventRewardInfoCell" preserve="all" />
+    <type fullname="PuzzleEventRewardInfoPopUp" preserve="all" />
+    <type fullname="PuzzleEventTileCell" preserve="all" />
+    <type fullname="RandomMover" preserve="all" />
+    <type fullname="Ranking_Popup" preserve="all" />
+    <type fullname="ReceiveUpdateShowFXValue" preserve="all" />
+    <type fullname="RectTransformLockAgent" preserve="all" />
+    <type fullname="RelicAbilityCell" preserve="all" />
+    <type fullname="RelicAbilityHeaderCell" preserve="all" />
+    <type fullname="RelicAbilityInfoDetail" preserve="all" />
+    <type fullname="RelicAbilityRateInfoPopUp" preserve="all" />
+    <type fullname="RelicRarityRateCell" preserve="all" />
+    <type fullname="RoadMapColumnCell" preserve="all" />
+    <type fullname="RoadMapColumnCellGridItem" preserve="all" />
+    <type fullname="RoadMapColumnCellLine" preserve="all" />
+    <type fullname="RoadMapEventMiniBanner" preserve="all" />
+    <type fullname="RoadMapEventPanel" preserve="all" />
+    <type fullname="RoadMapEventShortCutPanel" preserve="all" />
+    <type fullname="RotationEvent_DayMission_GridItem" preserve="all" />
+    <type fullname="RotationEvent_DayMission_Panel" preserve="all" />
+    <type fullname="RotationEvent_DayMission_Tab" preserve="all" />
+    <type fullname="RotationEvent_Dungeon_GridItem_SummonRate" preserve="all" />
+    <type fullname="RotationEvent_Dungeon_Panel" preserve="all" />
+    <type fullname="RotationEvent_Dungeon_SummonRate_Popup" preserve="all" />
+    <type fullname="RotationEvent_GridItem_Reward" preserve="all" />
+    <type fullname="RotationEvent_RewardInfo_Popup" preserve="all" />
+    <type fullname="RotationEvent_Shop_Popup" preserve="all" />
+    <type fullname="Roulette_GridItem_Mission" preserve="all" />
+    <type fullname="Roulette_GridItem_Reward" preserve="all" />
+    <type fullname="Roulette_Type_TfRot" preserve="all" />
+    <type fullname="Rune_Popup_Reinforce" preserve="all" />
+    <type fullname="RushEventBaseCell" preserve="all" />
+    <type fullname="RushEventPackageCell" preserve="all" />
+    <type fullname="RushEventPanel" preserve="all" />
+    <type fullname="SA_Shop_Gacha" preserve="all" />
+    <type fullname="ScriptableObjects.CharacAtkData_All" preserve="all" />
+    <type fullname="ScriptableObjects.PlayerSkillData_New" preserve="all" />
+    <type fullname="ScriptableObjects.PlayerSkillData_Relic" preserve="all" />
+    <type fullname="ScrollRectEnsureVisible" preserve="all" />
+    <type fullname="Seasonpass_GridItem_Mission" preserve="all" />
+    <type fullname="SeasonPass_GridItem_Reward" preserve="all" />
+    <type fullname="Seasonpass_Panel" preserve="all" />
+    <type fullname="SeasonPass_Popup_Buy" preserve="all" />
+    <type fullname="SeasonPass_Popup_Buy_PassLv" preserve="all" />
+    <type fullname="SeasonPass_ShortCut" preserve="all" />
+    <type fullname="SeasonPass_TopMenuBanner" preserve="all" />
+    <type fullname="Setting_Account_Panel" preserve="all" />
+    <type fullname="Setting_Display_Panel" preserve="all" />
+    <type fullname="Setting_Normal_Panel" preserve="all" />
+    <type fullname="Setting_Sound_Panel" preserve="all" />
+    <type fullname="SFXController" preserve="all" />
+    <type fullname="ShelterNpcController" preserve="all" />
+    <type fullname="ShelterObject_TV" preserve="all" />
+    <type fullname="ShelterTileMap" preserve="all" />
+    <type fullname="Shop_AdGacha_Popup" preserve="all" />
+    <type fullname="Shop_AdGachaButton" preserve="all" />
+    <type fullname="Shop_Banner" preserve="all" />
+    <type fullname="Shop_DailyShopStreak" preserve="all" />
+    <type fullname="Shop_Gacha" preserve="all" />
+    <type fullname="Shop_GachaButton" preserve="all" />
+    <type fullname="Shop_Goods" preserve="all" />
+    <type fullname="Shop_GridItem_PackageComponentCustom" preserve="all" />
+    <type fullname="Shop_GridItem_Relay" preserve="all" />
+    <type fullname="Shop_GridItem_Relay_Pair" preserve="all" />
+    <type fullname="Shop_MainTab" preserve="all" />
+    <type fullname="Shop_Package" preserve="all" />
+    <type fullname="Shop_PackageValueInfo" preserve="all" />
+    <type fullname="Shop_Panel" preserve="all" />
+    <type fullname="Shop_PickupGachaReward" preserve="all" />
+    <type fullname="Shop_PickupGachaRewardSlot" preserve="all" />
+    <type fullname="Shop_Popup_BuyPackage" preserve="all" />
+    <type fullname="Shop_Popup_BuyPackage_AdFree" preserve="all" />
+    <type fullname="Shop_Popup_BuyPackage_Monthly" preserve="all" />
+    <type fullname="Shop_Popup_BuyPackage_Monthly1" preserve="all" />
+    <type fullname="Shop_Popup_BuyPackage_Monthly2" preserve="all" />
+    <type fullname="Shop_Popup_BuyPackage_Monthly3" preserve="all" />
+    <type fullname="Shop_Popup_BuyPackage_Monthly4" preserve="all" />
+    <type fullname="Shop_Popup_CustomPackageSetting" preserve="all" />
+    <type fullname="Shop_Popup_Gacha" preserve="all" />
+    <type fullname="Shop_Popup_GachaRate_Cards" preserve="all" />
+    <type fullname="Shop_Popup_GachaRate_Character" preserve="all" />
+    <type fullname="Shop_Popup_GachaRate_Emblem" preserve="all" />
+    <type fullname="Shop_Popup_GemGacha" preserve="all" />
+    <type fullname="Shop_Relay" preserve="all" />
+    <type fullname="Shop_RelayHead" preserve="all" />
+    <type fullname="Shop_Skin" preserve="all" />
+    <type fullname="Shop_SubTab" preserve="all" />
+    <type fullname="ShopObjectPool" preserve="all" />
+    <type fullname="ShopSkinCell" preserve="all" />
+    <type fullname="ShowLoading_PartySetup" preserve="all" />
+    <type fullname="ShowLoading_Smooth" preserve="all" />
+    <type fullname="SideQuest_Popup" preserve="all" />
+    <type fullname="SimpleTimer" preserve="all" />
+    <type fullname="SlateGroupCell" preserve="all" />
+    <type fullname="SlateSlotCell" preserve="all" />
+    <type fullname="SlateSlotDetailInfo" preserve="all" />
+    <type fullname="SlotReinforce_GridItem_Option" preserve="all" />
+    <type fullname="SlotReinforce_Item_Equipped" preserve="all" />
+    <type fullname="SlotReinforce_Window" preserve="all" />
+    <type fullname="SlotReinforce_Window_LvUp" preserve="all" />
+    <type fullname="SmartItemUsePopup" preserve="all" />
+    <type fullname="SmartPackage_BasePanel" preserve="all" />
+    <type fullname="SmartPackage_FirstBuyPanel" preserve="all" />
+    <type fullname="SmartPackage_GridItem_Tab_Recommend" preserve="all" />
+    <type fullname="SmartPackageFirst_Popup" preserve="all" />
+    <type fullname="SmartPackageNewFirstBuyPanel" preserve="all" />
+    <type fullname="SmartPackageOpen_Popup" preserve="all" />
+    <type fullname="SO_CamFOVProductionSettings" preserve="all" />
+    <type fullname="SO_ShelterBuildingProductionPositionSetter" preserve="all" />
+    <type fullname="SoulForge_GridItem_Slot" preserve="all" />
+    <type fullname="SoulForge_GridItem_SlotGroup" preserve="all" />
+    <type fullname="SoulForge_GridItem_Stat" preserve="all" />
+    <type fullname="SoulForge_Popup" preserve="all" />
+    <type fullname="SoulForge_Popup_CardSetting" preserve="all" />
+    <type fullname="SoulForge_Popup_LvUp" preserve="all" />
+    <type fullname="SoulForge_UI_Panel" preserve="all" />
+    <type fullname="SpeechBubble" preserve="all" />
+    <type fullname="SpineEventExporter" preserve="all" />
+    <type fullname="StageBossAutoChallengeKeepOnShortcutButton" preserve="all" />
+    <type fullname="StageRace_Popup_Start" preserve="all" />
+    <type fullname="StageRace_RankingCell" preserve="all" />
+    <type fullname="StageRace_View" preserve="all" />
+    <type fullname="StartActiveFalse" preserve="all" />
+    <type fullname="Stat_GridItem_Detail" preserve="all" />
+    <type fullname="Stat_GridItem_DetailTab" preserve="all" />
+    <type fullname="Stat_Popup" preserve="all" />
+    <type fullname="Stat_Popup_Detail" preserve="all" />
+    <type fullname="StatCell" preserve="all" />
+    <type fullname="StatusEffectTagGroup" preserve="all" />
+    <type fullname="StatusEffectTagGroup_Old" preserve="all" />
+    <type fullname="StatusEffectTagItem" preserve="all" />
+    <type fullname="SubscribeCell" preserve="all" />
+    <type fullname="SubscribePopup" preserve="all" />
+    <type fullname="Supporter_GridItem_Convert" preserve="all" />
+    <type fullname="Supporter_GridItem_Supporter__Scroll" preserve="all" />
+    <type fullname="Supporter_GridItem_SupporterEffect" preserve="all" />
+    <type fullname="Supporter_GridItem_SupporterEffectGroup" preserve="all" />
+    <type fullname="Supporter_Panel_Organize" preserve="all" />
+    <type fullname="Supporter_Panel_SoulWeapon" preserve="all" />
+    <type fullname="Supporter_Panel_Synthesis" preserve="all" />
+    <type fullname="Supporter_Popup" preserve="all" />
+    <type fullname="Supporter_Popup_Detail" preserve="all" />
+    <type fullname="Synergy_Info" preserve="all" />
+    <type fullname="TagItemCell" preserve="all" />
+    <type fullname="TagsCell" preserve="all" />
+    <type fullname="TargetEvent_GridItem_Mission" preserve="all" />
+    <type fullname="TargetEvent_GridItem_Package" preserve="all" />
+    <type fullname="TargetEvent_Popup" preserve="all" />
+    <type fullname="TextFontSetter" preserve="all" />
+    <type fullname="Tikitaka.AutoLocalization" preserve="all" />
+    <type fullname="TooltipTrigger" preserve="all" />
+    <type fullname="TrainCenter.TrainCenterDefaultSetting" preserve="all" />
+    <type fullname="TrainingRoom_Cheat_GridItem_StatView" preserve="all" />
+    <type fullname="TrialTower_DailyReward_Popup" preserve="all" />
+    <type fullname="TrialTower_Popup" preserve="all" />
+    <type fullname="UGUIViewPresenter" preserve="all" />
+    <type fullname="UI_Account_Delete_Popup" preserve="all" />
+    <type fullname="UI_AdMobBuff" preserve="all" />
+    <type fullname="UI_AdMobBuffItem" preserve="all" />
+    <type fullname="UI_AdMobNoti" preserve="all" />
+    <type fullname="UI_AmountSlider" preserve="all" />
+    <type fullname="UI_Btn" preserve="all" />
+    <type fullname="UI_Card_Inform_Detail" preserve="all" />
+    <type fullname="UI_ChangeParentCanvas" preserve="all" />
+    <type fullname="UI_ChangeSlibingToLast_ForTxt" preserve="all" />
+    <type fullname="UI_Collection_Panel" preserve="all" />
+    <type fullname="UI_Collection_Stat_Popup" preserve="all" />
+    <type fullname="UI_CommonSubTab" preserve="all" />
+    <type fullname="UI_CommonTab" preserve="all" />
+    <type fullname="UI_CPChanger" preserve="all" />
+    <type fullname="UI_DialogueRewardSlot" preserve="all" />
+    <type fullname="UI_DialogueView" preserve="all" />
+    <type fullname="UI_ExSideTab" preserve="all" />
+    <type fullname="UI_FarmingEntry" preserve="all" />
+    <type fullname="UI_Gauge" preserve="all" />
+    <type fullname="UI_HorizontalLayout_Controller" preserve="all" />
+    <type fullname="UI_Item_Inform" preserve="all" />
+    <type fullname="UI_Item_Viewer" preserve="all" />
+    <type fullname="UI_MonsterSkillInfo" preserve="all" />
+    <type fullname="UI_Notice" preserve="all" />
+    <type fullname="UI_PageGuide" preserve="all" />
+    <type fullname="UI_PopupMsg" preserve="all" />
+    <type fullname="UI_RedDot" preserve="all" />
+    <type fullname="UI_Setting_Popup" preserve="all" />
+    <type fullname="UI_SizeFollower" preserve="all" />
+    <type fullname="UI_SmartPackageNoti" preserve="all" />
+    <type fullname="UI_SpeechBubble" preserve="all" />
+    <type fullname="UI_Tab" preserve="all" />
+    <type fullname="UI_Tab_Reworked" preserve="all" />
+    <type fullname="UI_ToastMsg" preserve="all" />
+    <type fullname="UI_TopRightMenu" preserve="all" />
+    <type fullname="UI_TopRightMenu_Expand" preserve="all" />
+    <type fullname="UI_UltimatePartsStatOptions" preserve="all" />
+    <type fullname="UI_Underline" preserve="all" />
+    <type fullname="UI_UserInfo" preserve="all" />
+    <type fullname="UIFollowObject" preserve="all" />
+    <type fullname="UIItemDatas" preserve="all" />
+    <type fullname="UIPortalStageNode" preserve="all" />
+    <type fullname="UltimateCollection_GridItem_CategoryHead" preserve="all" />
+    <type fullname="UniRx.Triggers.ObservableDestroyTrigger" preserve="all" />
+    <type fullname="UnirxToggle" preserve="all" />
+    <type fullname="UnityEngine.UI.EmptyGraphic" preserve="all" />
+    <type fullname="UnityEngine.UI.Extensions.CUIBezierCurve" preserve="all" />
+    <type fullname="UnityEngine.UI.Extensions.Gradient" preserve="all" />
+    <type fullname="UnityEngine.UI.Extensions.Gradient2" preserve="all" />
+    <type fullname="UnityEngine.UI.Extensions.UIFlippable" preserve="all" />
+    <type fullname="UnityEngine.UI.TSBackgroundScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.TSCanvasLandscapeScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.TSSafeAreaSizeFitter" preserve="all" />
+    <type fullname="UseItem_Popup_Rate" preserve="all" />
+    <type fullname="UserInfo_GridItem_Profile" preserve="all" />
+    <type fullname="UserInfo_Popup_Report" preserve="all" />
+    <type fullname="UserInfoPopup" preserve="all" />
+    <type fullname="UserInform_GridItem_NewbieGuide" preserve="all" />
+    <type fullname="UserInform_GridItem_Profile_UserTitle" preserve="all" />
+    <type fullname="UserInform_GridItem_Profile_UserTitleBg" preserve="all" />
+    <type fullname="UserInform_GridItemPair_Profile_UserTitleBg" preserve="all" />
+    <type fullname="UserInform_Panel_NewbieGuide" preserve="all" />
+    <type fullname="UserInform_Panel_Profile_Frame" preserve="all" />
+    <type fullname="UserInform_Panel_Profile_UserIcon" preserve="all" />
+    <type fullname="UserInform_Panel_Profile_UserTitle" preserve="all" />
+    <type fullname="UserInform_Panel_Profile_UserTitleBg" preserve="all" />
+    <type fullname="UserInform_Popup" preserve="all" />
+    <type fullname="UserInform_Popup_Profile" preserve="all" />
+    <type fullname="UserInfoShortCutPopup" preserve="all" />
+    <type fullname="UserNicknameChangePopup" preserve="all" />
+    <type fullname="UserProfileUI.UserProfile_Cell" preserve="all" />
+    <type fullname="UserProfileUI.UserProfile_GridItem" preserve="all" />
+    <type fullname="WithdrawTextController" preserve="all" />
+    <type fullname="Battle.SpineInfo" preserve="nothing" serialized="true" />
+    <type fullname="SO_ShelterBuildingProductionPositionSetter/PositionGroup" preserve="nothing" serialized="true" />
+    <type fullname="ScriptableObjects.PlayerSkillData_Unit" preserve="nothing" serialized="true" />
+    <type fullname="ScriptableObjects.SO_MoreFireSkill" preserve="nothing" serialized="true" />
+    <type fullname="ScriptableObjects.SO_ParticleData" preserve="nothing" serialized="true" />
+    <type fullname="ScriptableObjects.SkillGroup_Phase" preserve="nothing" serialized="true" />
+    <type fullname="ScriptableObjects.PlayerSkillData_RelicUnit" preserve="nothing" serialized="true" />
+    <type fullname="AetherBonusPanel/DailyBonusReward" preserve="nothing" serialized="true" />
+    <type fullname="AetherBonusPanel/RankInfo" preserve="nothing" serialized="true" />
+    <type fullname="AlchemyModifyUltRevalue/RevalueStateinfo" preserve="nothing" serialized="true" />
+    <type fullname="AlchemySelectParts/PartsStateinfo" preserve="nothing" serialized="true" />
+    <type fullname="AlchemyUltimateCraft/SubPanelObjects" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/CurrenciesView" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/CurrenciesView/CurrencyView" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/MatItemAndButtonView" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/MatItemView" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/PanelSelectedSlotView" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/PanelSlotBoardView" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/SlotDisplayStateObjects" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/SlotDisplayStateObjects/ObjectsActivateStates" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/SlotViewContainer/GradeBg" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/SlotViewContainer/Lock" preserve="nothing" serialized="true" />
+    <type fullname="Arcana/SlotViewContainer/Stat" preserve="nothing" serialized="true" />
+    <type fullname="Arcana_Popup/CommonView" preserve="nothing" serialized="true" />
+    <type fullname="Arcana_Popup/TabObjects" preserve="nothing" serialized="true" />
+    <type fullname="Archive_GridItem_SpecialOption/GridItemObject" preserve="nothing" serialized="true" />
+    <type fullname="Archive_GridItem_SpecialOption/PartTypeObject" preserve="nothing" serialized="true" />
+    <type fullname="Archive_GridItem_SpecialOption/TextObject" preserve="nothing" serialized="true" />
+    <type fullname="Archive_GridItem_SpecialOptionHead/GridItemObject" preserve="nothing" serialized="true" />
+    <type fullname="Archive_GridItem_SpecialOptionHead/TextObject" preserve="nothing" serialized="true" />
+    <type fullname="Archive_Panel_Card/SpecialOptionObjects" preserve="nothing" serialized="true" />
+    <type fullname="Archive_Panel_SpecialOpt/SubTab" preserve="nothing" serialized="true" />
+    <type fullname="Archive_Panel_SpecialOpt/SubTabIndexData" preserve="nothing" serialized="true" />
+    <type fullname="Archive_Panel_SpecialOpt/SubTabIndexDictionary`1[eCardType]" preserve="nothing" serialized="true" />
+    <type fullname="Archive_Panel_SpecialOpt/SubTabIndexDictionary`1[eElementType]" preserve="nothing" serialized="true" />
+    <type fullname="Archive_Panel_SpecialOpt/SubTabIndexDictionary`1[ePartsType]" preserve="nothing" serialized="true" />
+    <type fullname="Archive_Popup/CategoryObjects" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Gauge/ShardData" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_GridItem_CompanionPVP_CompCondition/GridItemView" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_GridItem_CompanionPVP_TargetSelect/UserInfo" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP/Buttons" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP/ConditionView" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP/Currencies" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP/MyInfo" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP/RankerGridItems" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP/WaitingServerResponseOnShow" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_DeckBuilding/Buttons" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_DeckBuilding/ChangeEquipMode" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_DeckBuilding/GridItemList" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_DeckBuilding/SettingMode" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_DeckBuilding/SortOrder" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_Defence/DeckView" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_Defence/DeckViewGridItem" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_Enchant/VFX" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_Offence/UserInfoDeckViewMine" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_Offence/UserInfoDeckViewOthers" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_SeasonStart/LeagueChangeInfo" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_SeasonStart/LeagueChangeInfo/ColorSet" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_TargetSelect/CurrencyGridItems" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_TargetSelect/MatchListGridItem" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_TargetSelect/RerollButton" preserve="nothing" serialized="true" />
+    <type fullname="BT_Contents_Popup_CompanionPVP_TargetSelect/RerollWaitingObjects" preserve="nothing" serialized="true" />
+    <type fullname="BadgeLoaderData" preserve="nothing" serialized="true" />
+    <type fullname="Battle.BT_Contents_Popup_CompanionPVP_Ingame/CompanionStat" preserve="nothing" serialized="true" />
+    <type fullname="Battle.BT_Contents_Popup_CompanionPVP_Ingame/Timer" preserve="nothing" serialized="true" />
+    <type fullname="Battle.BT_Contents_Popup_CompanionPVP_Ingame/UserPanel" preserve="nothing" serialized="true" />
+    <type fullname="Battle.BT_Contents_Popup_CompanionPVP_IngameResult/VPText" preserve="nothing" serialized="true" />
+    <type fullname="Battle.BT_Contents_Popup_CompanionPVP_Meter/DealMeterView" preserve="nothing" serialized="true" />
+    <type fullname="Battle.BT_Contents_Popup_CompanionPVP_Meter/DealMeterView/GridItem" preserve="nothing" serialized="true" />
+    <type fullname="Battle.BT_Contents_Popup_CompanionPVP_Meter/UserView" preserve="nothing" serialized="true" />
+    <type fullname="Battle.Companion_PVP/BlindableDeckViewGridItemDefaultHandler" preserve="nothing" serialized="true" />
+    <type fullname="Battle.Companion_PVP/MatchUserInfo" preserve="nothing" serialized="true" />
+    <type fullname="Battle.Companion_PVP/TimerUI" preserve="nothing" serialized="true" />
+    <type fullname="Battle.GridItem_Conqueror2Rewards/View" preserve="nothing" serialized="true" />
+    <type fullname="Battle.Portal_GridItem_TotalPurification/RewardGroup" preserve="nothing" serialized="true" />
+    <type fullname="Battle.Portal_GridItem_TotalPurification/View" preserve="nothing" serialized="true" />
+    <type fullname="Battle.Portal_Popup_PureStone/View" preserve="nothing" serialized="true" />
+    <type fullname="Battle.Portal_Popup_TotalPurification/View" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.ElementGroup" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.MonsterInfo" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.TimerToggle" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Panel/StatView" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Panel/View" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Popup_DealMeter/View" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Popup_Entry/View" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Popup_RecordResult/View" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Popup_Setting/View" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.TrainingRoom_Popup_SettingEnemy/View" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.ValueWithBtnGroup" preserve="nothing" serialized="true" />
+    <type fullname="Battle.TrainCenter.UI.ValueWithEventTrigger" preserve="nothing" serialized="true" />
+    <type fullname="Battle.UI_BaseScreen/ExclusiveObjects" preserve="nothing" serialized="true" />
+    <type fullname="BulkRankUpResult_Popup/ConvertedAssetView" preserve="nothing" serialized="true" />
+    <type fullname="CHJ.Utils.PoolGroup`1[Coffee.UIExtensions.UIParticle]" preserve="nothing" serialized="true" />
+    <type fullname="CHJ.Utils.PoolGroup`1[PetGarden.Logic.PetGardenPetItem]" preserve="nothing" serialized="true" />
+    <type fullname="CardFormationDetailInfo/CardSlotData" preserve="nothing" serialized="true" />
+    <type fullname="CardFormationPopUpBase/CardCompositionModeInfo" preserve="nothing" serialized="true" />
+    <type fullname="Card_Detail_Description/UsingObjects" preserve="nothing" serialized="true" />
+    <type fullname="Card_SpecialityOptionToggles/ToggleGroupContainer" preserve="nothing" serialized="true" />
+    <type fullname="Cards_Popup/PresetPreviewObj" preserve="nothing" serialized="true" />
+    <type fullname="CharacterPanelSlate/EffectInfo" preserve="nothing" serialized="true" />
+    <type fullname="CharacterPanelSlate/SlateTabRedDot" preserve="nothing" serialized="true" />
+    <type fullname="Character_GridItem_EmblemListRow/EmblemAltarView" preserve="nothing" serialized="true" />
+    <type fullname="Character_GridItem_EmblemListRow/EmblemGridItemView" preserve="nothing" serialized="true" />
+    <type fullname="Character_Panel_Emblem/ButtonsView" preserve="nothing" serialized="true" />
+    <type fullname="Character_Panel_Emblem/CurrencyView" preserve="nothing" serialized="true" />
+    <type fullname="Character_Panel_Emblem/EquipView" preserve="nothing" serialized="true" />
+    <type fullname="Character_Panel_Emblem/ListView" preserve="nothing" serialized="true" />
+    <type fullname="Character_Panel_Emblem/RedDotView" preserve="nothing" serialized="true" />
+    <type fullname="Character_Panel_MonsterCard/Buttons" preserve="nothing" serialized="true" />
+    <type fullname="Character_Panel_MonsterCard/Currency" preserve="nothing" serialized="true" />
+    <type fullname="Character_Panel_MonsterCard/Equipment" preserve="nothing" serialized="true" />
+    <type fullname="Character_Panel_MonsterCard/RedDot" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_EmblemDetail/BonusStatEffect" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_EmblemDetail/Buttons" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_JobAbilityBreakThrough/BreakThroughInfo" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_JobAbilityReinforce/ReinforceLevelInfo" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_MonsterCardDetail/Buttons" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_MonsterCardDetail/Currencies" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_MonsterCardDetail/SelectedCard" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_MonsterCardDetail/VFX" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_SoulEnhance_Rate/ExclusiveRateObjs" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_SoulEnhance_Rate/RatePerGradeObjs" preserve="nothing" serialized="true" />
+    <type fullname="Character_Popup_SoulEnhance_Rate/RateTextColorSet" preserve="nothing" serialized="true" />
+    <type fullname="ChatTabObjects" preserve="nothing" serialized="true" />
+    <type fullname="CollaboEvent_MLN/MainInteractionButton" preserve="nothing" serialized="true" />
+    <type fullname="CollaboEvent_Panel_Base/InteractionButton" preserve="nothing" serialized="true" />
+    <type fullname="Constellation_GridItem/LinkData" preserve="nothing" serialized="true" />
+    <type fullname="CustomPickupColors" preserve="nothing" serialized="true" />
+    <type fullname="CustomPickupSingleDetailInfo/CardItemInfo" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.OverwritableProperty`1[UI_Tab_Helper/eSelectObjTargetFlag]" preserve="nothing" serialized="true" />
+    <type fullname="CutScene_Emblem_Gacha/EmblemView" preserve="nothing" serialized="true" />
+    <type fullname="CutScene_MonsterCard_Gacha/CardView" preserve="nothing" serialized="true" />
+    <type fullname="CutScene_Supporter_Gacha/SupporterView" preserve="nothing" serialized="true" />
+    <type fullname="DefaultGridItemHandler" preserve="nothing" serialized="true" />
+    <type fullname="Default_GaugeItem_Rank/ST_Event" preserve="nothing" serialized="true" />
+    <type fullname="Default_GaugeItem_Rank/ST_EventList" preserve="nothing" serialized="true" />
+    <type fullname="Default_GridItem_PartsStat/MasterPieceLevelObjGroup" preserve="nothing" serialized="true" />
+    <type fullname="Default_GridItem_PartsStat/MasterPieceSpecialLevelObj" preserve="nothing" serialized="true" />
+    <type fullname="Default_GridItem_PartsStat/MasterPieceTotalLevelObj" preserve="nothing" serialized="true" />
+    <type fullname="Default_Popup_SigilOfCrawley/Currency" preserve="nothing" serialized="true" />
+    <type fullname="Default_Popup_SigilOfCrawley/ETC" preserve="nothing" serialized="true" />
+    <type fullname="Default_Popup_SigilOfCrawley/GridItem" preserve="nothing" serialized="true" />
+    <type fullname="Default_Popup_SigilOfCrawley/Interactable" preserve="nothing" serialized="true" />
+    <type fullname="DelayedVfxContainer" preserve="nothing" serialized="true" />
+    <type fullname="DestinyRoomPopUp/AniInfo" preserve="nothing" serialized="true" />
+    <type fullname="DestinyRoomPopUp/RefinementStarInfo" preserve="nothing" serialized="true" />
+    <type fullname="DestinyRoomRouletteCell/SlotInfo" preserve="nothing" serialized="true" />
+    <type fullname="ElementalAbyssCardDetailInfo/CardSlotData" preserve="nothing" serialized="true" />
+    <type fullname="ElementalAbyssStageCardPopUp/CardCompositionModeInfo" preserve="nothing" serialized="true" />
+    <type fullname="ElementalAbyssStageCell/ElementalAbyssStateData" preserve="nothing" serialized="true" />
+    <type fullname="ElementalAbyssStageCell/FXData" preserve="nothing" serialized="true" />
+    <type fullname="ElementalAbyssStageChoicePopUp/DifficultyData" preserve="nothing" serialized="true" />
+    <type fullname="ElementalAbyssStageChoicePopUp/ElementalAbyssStageData" preserve="nothing" serialized="true" />
+    <type fullname="ElementalAbyssStageInfoPopUp/DifficultyData" preserve="nothing" serialized="true" />
+    <type fullname="ElementalAbyssStageInfoPopUp/ElementVFXData" preserve="nothing" serialized="true" />
+    <type fullname="ElementalInvasionCardDetailInfo/CardSlotData" preserve="nothing" serialized="true" />
+    <type fullname="ElementalInvasionCardPopUp/CardCompositionModeInfo" preserve="nothing" serialized="true" />
+    <type fullname="Emblem/VFX" preserve="nothing" serialized="true" />
+    <type fullname="EventMissionPopUp/MissionTabData" preserve="nothing" serialized="true" />
+    <type fullname="Event_DailyMissionPass_GridItem/RewardItemControl" preserve="nothing" serialized="true" />
+    <type fullname="Event_DailyMissionPass_Popup/MissionTabs" preserve="nothing" serialized="true" />
+    <type fullname="Event_DailyMissionPass_Popup/Missions" preserve="nothing" serialized="true" />
+    <type fullname="Event_DailyMissionPass_Popup/ToggleGroup" preserve="nothing" serialized="true" />
+    <type fullname="Exclusive_Popup_SlotReinforce/BottomObjects" preserve="nothing" serialized="true" />
+    <type fullname="Exclusive_Popup_SlotReinforce/DefaultGridItemObjects" preserve="nothing" serialized="true" />
+    <type fullname="Exclusive_Popup_SlotReinforce/OptionIncreaseRateObjects" preserve="nothing" serialized="true" />
+    <type fullname="Exclusive_Popup_SlotReinforce/ReinforceRequestObjects" preserve="nothing" serialized="true" />
+    <type fullname="Exclusive_Popup_SlotReinforce/SlotUpgradeVFX" preserve="nothing" serialized="true" />
+    <type fullname="Exclusive_Popup_SlotReinforce/StatOptionGridItemObjects" preserve="nothing" serialized="true" />
+    <type fullname="Exclusive_Popup_SlotReinforce/UpgradeValueObjects" preserve="nothing" serialized="true" />
+    <type fullname="Filter_Panel/FilterParent" preserve="nothing" serialized="true" />
+    <type fullname="GachaCutSceneViewContainer/AnimationObjects" preserve="nothing" serialized="true" />
+    <type fullname="GachaCutSceneViewContainer/Buttons" preserve="nothing" serialized="true" />
+    <type fullname="GachaCutSceneViewContainer/GradeObject" preserve="nothing" serialized="true" />
+    <type fullname="GachaCutSceneViewContainer/GradeObjects" preserve="nothing" serialized="true" />
+    <type fullname="GemStone_Popup_GemRefineAddGauge/StatusObjs" preserve="nothing" serialized="true" />
+    <type fullname="GridItemTemplates/ChangeAmountView" preserve="nothing" serialized="true" />
+    <type fullname="GridItemTemplates/ChangeRankView" preserve="nothing" serialized="true" />
+    <type fullname="GridItemTemplates/EasingView" preserve="nothing" serialized="true" />
+    <type fullname="GridItemTemplates/EasingView/Fade" preserve="nothing" serialized="true" />
+    <type fullname="GridItemTemplates/EasingView/Move" preserve="nothing" serialized="true" />
+    <type fullname="GridItemTemplates/EasingView/Scale" preserve="nothing" serialized="true" />
+    <type fullname="GridItemTemplates/StarBadgeView" preserve="nothing" serialized="true" />
+    <type fullname="GridItem_Collection/Condition_Item" preserve="nothing" serialized="true" />
+    <type fullname="GridItem_ProductPackage/GameObjectList" preserve="nothing" serialized="true" />
+    <type fullname="HighpassTab_Day/DayMissionState" preserve="nothing" serialized="true" />
+    <type fullname="HpCalculateRecordView/Filter" preserve="nothing" serialized="true" />
+    <type fullname="ImageLoader_Localized_Server/ImageNameSDict" preserve="nothing" serialized="true" />
+    <type fullname="Items_Popup_Inform_Supporter/CpViewer" preserve="nothing" serialized="true" />
+    <type fullname="Items_Popup_Inform_Supporter/GemSocket" preserve="nothing" serialized="true" />
+    <type fullname="JobAbility.Enforce.JobUIs" preserve="nothing" serialized="true" />
+    <type fullname="LB_AlchemyModify_UltMasterPiece/Common" preserve="nothing" serialized="true" />
+    <type fullname="LB_AlchemyModify_UltMasterPiece/Material01Objects" preserve="nothing" serialized="true" />
+    <type fullname="LB_AlchemyModify_UltMasterPiece/StatObjects" preserve="nothing" serialized="true" />
+    <type fullname="LB_AlchemyModify_UltMasterPiece/Step01" preserve="nothing" serialized="true" />
+    <type fullname="LB_AlchemyModify_UltMasterPiece/Step02" preserve="nothing" serialized="true" />
+    <type fullname="LB_AlchemyModify_UltMasterPiece/Step03" preserve="nothing" serialized="true" />
+    <type fullname="LB_AlchemyModify_UltMasterPiece/StepObjects" preserve="nothing" serialized="true" />
+    <type fullname="LB_AlchemyModify_UltMasterPiece/TotalLevelObjects" preserve="nothing" serialized="true" />
+    <type fullname="LB_AlchemyParts/PageObject" preserve="nothing" serialized="true" />
+    <type fullname="LB_AlchemyUltimateModify/SubPanelObjects" preserve="nothing" serialized="true" />
+    <type fullname="LB_ElementalResonance_Panel/ReciveCardInfob" preserve="nothing" serialized="true" />
+    <type fullname="LasksGiftDataInfo/LasksGiftData" preserve="nothing" serialized="true" />
+    <type fullname="Lobby.LB_Alchemy/PanelObjects" preserve="nothing" serialized="true" />
+    <type fullname="Lobby.UI_Bar_BuffInfo" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.CharacGroup" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.CharacInfo" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.CharacInfo/StateAniGroup" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.CharacInfo/StateSpriteGroup" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.ComboGroup" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.FeverGroup" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.ObjGroup" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.PauseGroup" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.ScoreGroup" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.StateGroup" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.ToggleGroup" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.UI.TweenAniGroup" preserve="nothing" serialized="true" />
+    <type fullname="MonsterCard/StarObjs" preserve="nothing" serialized="true" />
+    <type fullname="Parts_Popup_Choice/TweenIsInactiveText" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.Logic.PetGardenPetItem/PetStatusGroup" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.Logic.PetGardenPetItem/View" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.Logic.PetGardenPlace/View" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.CardSlotGroup" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.CardSlotGroup/CardSlotItem" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.FieldGroup" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.GardenLevelGroup" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.PetGarden_Panel/View" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.PetGarden_Popup_TileDetail/View" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.PetGarden_Popup_TileLvUp/View" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.PetGarden_Popup_TotalTile/View" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.PetGarden_Popup_TotalTile_Stat/View" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.PetGarden_Popup_TotalTile_Tree/View" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.RewardGroup" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.TileGroup" preserve="nothing" serialized="true" />
+    <type fullname="PetGarden.UI.ToggleGroup" preserve="nothing" serialized="true" />
+    <type fullname="PocketHelper/CardSmallPortrait" preserve="nothing" serialized="true" />
+    <type fullname="PocketHelper/InfoObjects" preserve="nothing" serialized="true" />
+    <type fullname="PocketHelper/RuneCommonInfo" preserve="nothing" serialized="true" />
+    <type fullname="PocketHelper/RuneEmptyObjects" preserve="nothing" serialized="true" />
+    <type fullname="PocketHelper/RuneEquipInfo" preserve="nothing" serialized="true" />
+    <type fullname="PocketHelper/RuneFilledObjects" preserve="nothing" serialized="true" />
+    <type fullname="PocketHelper/RuneStatInfo" preserve="nothing" serialized="true" />
+    <type fullname="Pocket_Equip_Panel_Exclusive/Left_Filled_Bottom" preserve="nothing" serialized="true" />
+    <type fullname="Pocket_Equip_Panel_Exclusive/Left_Filled_Info" preserve="nothing" serialized="true" />
+    <type fullname="Pocket_Equip_Panel_Exclusive/Left_Filled_Top" preserve="nothing" serialized="true" />
+    <type fullname="Pocket_Popup/PocketPanelSetting" preserve="nothing" serialized="true" />
+    <type fullname="Pocket_Popup_Equip/PanelSettings" preserve="nothing" serialized="true" />
+    <type fullname="Pocket_Popup_Inform/PanelSettings" preserve="nothing" serialized="true" />
+    <type fullname="Pocket_Popup_Inform/TopObjects" preserve="nothing" serialized="true" />
+    <type fullname="Popup_Confirm_MaterialCost/ButtonObj" preserve="nothing" serialized="true" />
+    <type fullname="Popup_Confirm_MaterialCost/PrismAetherObj" preserve="nothing" serialized="true" />
+    <type fullname="Portal_Popup_GuildConquestNoti/ObjInfo" preserve="nothing" serialized="true" />
+    <type fullname="Preset_Popup/CardObjects" preserve="nothing" serialized="true" />
+    <type fullname="Preset_Popup/PresetPreviewChangeConfirmObjs" preserve="nothing" serialized="true" />
+    <type fullname="ProbabilityInfo_Popup/RateTextObject" preserve="nothing" serialized="true" />
+    <type fullname="RelicAbilityRateInfoPopUp/CellPrefabInfo" preserve="nothing" serialized="true" />
+    <type fullname="RotationEvent_DayMission_Tab/DayMissionState" preserve="nothing" serialized="true" />
+    <type fullname="ShopGachaFX" preserve="nothing" serialized="true" />
+    <type fullname="ShopGachaShake" preserve="nothing" serialized="true" />
+    <type fullname="Shop_GachaButton/SpeechBubble" preserve="nothing" serialized="true" />
+    <type fullname="SmartItemUsePopup/SmartItemInfo" preserve="nothing" serialized="true" />
+    <type fullname="SmartPackageNewFirstBuyPanel/RewardItemInfo" preserve="nothing" serialized="true" />
+    <type fullname="SoulForge_Popup/TabItem" preserve="nothing" serialized="true" />
+    <type fullname="SoulForge_Popup_CardSetting/ListView" preserve="nothing" serialized="true" />
+    <type fullname="SoulForge_Popup_CardSetting/SelectedView" preserve="nothing" serialized="true" />
+    <type fullname="SoulForge_Popup_LvUp/AdditionalRowPreview" preserve="nothing" serialized="true" />
+    <type fullname="SoulForge_Popup_LvUp/Header" preserve="nothing" serialized="true" />
+    <type fullname="SoulForge_Popup_LvUp/StatComparisonGridItem" preserve="nothing" serialized="true" />
+    <type fullname="SoulForge_UI_Panel/Header" preserve="nothing" serialized="true" />
+    <type fullname="SoulForge_UI_Panel/InteractionBlocker" preserve="nothing" serialized="true" />
+    <type fullname="SoulForge_UI_Panel/ListView" preserve="nothing" serialized="true" />
+    <type fullname="SoulForge_UI_Panel/StatGridItemContainer" preserve="nothing" serialized="true" />
+    <type fullname="StageRace_View/RewardGroup" preserve="nothing" serialized="true" />
+    <type fullname="StageRace_View/RewardInfo" preserve="nothing" serialized="true" />
+    <type fullname="StageRace_View/TimerGaugeGroup" preserve="nothing" serialized="true" />
+    <type fullname="Stat_Popup_Detail/StatValueView" preserve="nothing" serialized="true" />
+    <type fullname="SubscribeCell/ProductInfo" preserve="nothing" serialized="true" />
+    <type fullname="Supporter/EnablePartsSlotView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter/EnablePartsSlotViewContainer" preserve="nothing" serialized="true" />
+    <type fullname="Supporter/EnablePartsSlotViewContainer/ColorSet" preserve="nothing" serialized="true" />
+    <type fullname="Supporter/SynthesisResultTooltipView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_GridItem_Convert/ResultView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_Organize/ButtonView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_Organize/EquipView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_Organize/ListView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_SoulWeapon/SortOrderButtonView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_SoulWeapon/SoulWeaponGridView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_SoulWeapon/SoulWeaponListView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_SoulWeapon/SoulWeaponView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_SoulWeapon/SupporterView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_Synthesis/ButtonView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_Synthesis/ListView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_Synthesis/MileageView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Panel_Synthesis/SynthesisMaterialView" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Popup/SubPanelViewContainer" preserve="nothing" serialized="true" />
+    <type fullname="Supporter_Popup_Detail/ButtonContainer" preserve="nothing" serialized="true" />
+    <type fullname="Synergys.SynergyScrollList" preserve="nothing" serialized="true" />
+    <type fullname="TrainCenter.VectorList" preserve="nothing" serialized="true" />
+    <type fullname="UI_Base_DoTween/BlackInOutUseSettings" preserve="nothing" serialized="true" />
+    <type fullname="UI_Btn/ST_Event" preserve="nothing" serialized="true" />
+    <type fullname="UI_Btn/ST_EventList" preserve="nothing" serialized="true" />
+    <type fullname="UI_Card_Inform_Detail/CardPartsIcon" preserve="nothing" serialized="true" />
+    <type fullname="UI_Card_Inform_Detail/CardPartsObjects" preserve="nothing" serialized="true" />
+    <type fullname="UI_Card_Inform_Detail/DescriptionObjectHierarchyOrder" preserve="nothing" serialized="true" />
+    <type fullname="UI_Collection_Panel/CategoryTabObjects" preserve="nothing" serialized="true" />
+    <type fullname="UI_Gauge/ST_Event" preserve="nothing" serialized="true" />
+    <type fullname="UI_Gauge/ST_EventList" preserve="nothing" serialized="true" />
+    <type fullname="UI_Tab/TabEvent" preserve="nothing" serialized="true" />
+    <type fullname="UI_Tab/TabEventList" preserve="nothing" serialized="true" />
+    <type fullname="UI_Tab/TabToggle" preserve="nothing" serialized="true" />
+    <type fullname="UI_Tab_Helper/SetColor" preserve="nothing" serialized="true" />
+    <type fullname="UI_Tab_Helper/TabChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UI_Tab_Helper/TabConfig" preserve="nothing" serialized="true" />
+    <type fullname="UI_Tab_Helper/TabEvent" preserve="nothing" serialized="true" />
+    <type fullname="UI_Tab_Helper/TabSelectConfigurator" preserve="nothing" serialized="true" />
+    <type fullname="UI_TopRightMenu/ButtonWithRedDot" preserve="nothing" serialized="true" />
+    <type fullname="UI_TopRightMenu/RedDotButtonWithLock" preserve="nothing" serialized="true" />
+    <type fullname="UltimatePartsCollection/ColorSet" preserve="nothing" serialized="true" />
+    <type fullname="UltimatePartsCollection/HeaderColorSetCollection" preserve="nothing" serialized="true" />
+    <type fullname="UniRx.BoolReactiveProperty" preserve="nothing" serialized="true" />
+    <type fullname="UniRx.ReactiveDictionary`2[System.Int32,System.Boolean]" preserve="nothing" serialized="true" />
+    <type fullname="UniRx.ReactiveDictionary`2[System.ValueTuple`2[System.Int32,System.Int32],System.Boolean]" preserve="nothing" serialized="true" />
+    <type fullname="UniRx.ReactiveDictionary`2[eObjectType,System.Boolean]" preserve="nothing" serialized="true" />
+    <type fullname="UniRx.ReactiveProperty`1[System.Int32]" preserve="nothing" serialized="true" />
+    <type fullname="UniRx.ReactiveProperty`1[System.Single]" preserve="nothing" serialized="true" />
+    <type fullname="UserInfo.UI.SimpleGridItemView" preserve="nothing" serialized="true" />
+    <type fullname="UserInfo.UI.UserInfoPartsUIObjects" preserve="nothing" serialized="true" />
+    <type fullname="UserInfo_GridItem_Profile/ColorSet" preserve="nothing" serialized="true" />
+    <type fullname="WorldBossTabTimer" preserve="nothing" serialized="true" />
+    <type fullname="WorldBossTeamTag" preserve="nothing" serialized="true" />
+    <type fullname="WorldBossTeamTagShip" preserve="nothing" serialized="true" />
+    <type fullname="cMasteryNodeData" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.Minigame_LeftLight_Setting" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.Minigame_LeftRight_ViewSetting" preserve="nothing" serialized="true" />
+    <type fullname="Minigame.LeftRight.Minigame_Obj" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DG.Tweening.DOTweenAnimation" preserve="all" />
+  </assembly>
+  <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
+  </assembly>
+  <assembly fullname="DOTweenPro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="DG.Tweening.DOTweenVisualManager" preserve="all" />
+  </assembly>
+  <assembly fullname="RecycleScroller.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="RecycleScroll.RecycleScrollbar" preserve="all" />
+    <type fullname="RecycleScroll.RecycleScroller" preserve="all" />
+    <type fullname="RecycleScroll.RS_LDE_ChangeAlignment_UsingByGroupCount" preserve="all" />
+    <type fullname="RecycleScroll.RS_LDE_ChangeAlignment_UsingByGroupCount2" preserve="all" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eShelterObject,SO_ShelterBuildingProductionPositionSetter/PositionGroup]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eShelterObject,SO_ShelterBuildingProductionPositionSetter/PositionGroup]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[Archive.eGridItemType,Archive_GridItem_SpecialOpt_Base]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[Archive.eSpecialOptionSubTabType,Archive_Panel_SpecialOpt/SubTab]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[GuildConquest.eGridItemType,GuildConquest.GridItem_GuildConquest_Base]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[HpCalculateRecorder/RecordCategory,UnityEngine.UI.Button]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[JobAbility.Enforce.eJobAbilityEnforceableState,UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[JobAbility.Enforce.eReddotType,UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[Parts_Popup_Choice/eDrawPopupType,System.String]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[Parts_Popup_Choice/eDrawPopupType,UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[PetGarden.Logic.PetGardenPetItem/ePetStatus,PetGarden.Logic.PetGardenPetItem/PetStatusGroup]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,AlchemyUltimateCraft/SubPanelObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,Battle.DealMeterStreamPack/Type]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,Character_GridItem_EmblemListRow/EmblemGridItemView]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,Filter_Panel/FilterParent]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,GridItem_Currency]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,GridItem_ProductPackage/GameObjectList]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,LB_AlchemyUltimateModify/SubPanelObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,Lobby.LB_Alchemy/PanelObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,Pocket_Popup/PocketPanelSetting]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,SoulForge_Popup/TabItem]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,Supporter_Popup/SubPanelViewContainer]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,System.Int32]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,TrainCenter.VectorList]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,UnityEngine.Color]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,UnityEngine.UI.Button]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,UnityEngine.Vector2]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,eElementType]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.Int32,ePartsType]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[System.ValueTuple`2[System.Int32,System.Int32],UnityEngine.UI.Button]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[UnityEngine.TextAnchor,RecycleScroll.ConditionData]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[UnityEngine.TextAnchor,RecycleScroll.ConditionExpression]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eArchiveCategory,Archive_Popup/CategoryObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eCardType,Card_Detail_Description/UsingObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eCardType,Pocket_Popup_Equip/PanelSettings]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eCardType,Preset_Popup/CardObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eCardType,UI_Card_Inform_Detail/CardPartsIcon]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eCardType,UI_Card_Inform_Detail/DescriptionObjectHierarchyOrder]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eChatCategory,ChatTabObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eElementType,Battle.TrainCenter.UI.ElementGroup]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eGrade,Character_Popup_SoulEnhance_Rate/RatePerGradeObjs]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eGrade,GachaCutSceneViewContainer/GradeObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eGrade,GridItem_GachaRate]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eGrade,UnityEngine.Color]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eGrade,UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eIngameEventerType,UnityEngine.Vector2]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eObjectType,UnityEngine.UI.Button]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[ePartsType,Supporter/EnablePartsSlotView]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[ePartsType,Supporter_Panel_SoulWeapon/SoulWeaponGridView]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[ePocketItemType,Pocket_Popup_Inform/PanelSettings]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableDictionary`2[eType_Collection_Category,UI_Collection_Panel/CategoryTabObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[Archive.eGridItemType,Archive_GridItem_SpecialOpt_Base]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[Archive.eSpecialOptionSubTabType,Archive_Panel_SpecialOpt/SubTab]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[GuildConquest.eGridItemType,GuildConquest.GridItem_GuildConquest_Base]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[JobAbility.Enforce.eJobAbilityEnforceableState,UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[JobAbility.Enforce.eReddotType,UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[Parts_Popup_Choice/eDrawPopupType,System.String]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[Parts_Popup_Choice/eDrawPopupType,UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[PetGarden.Logic.PetGardenPetItem/ePetStatus,PetGarden.Logic.PetGardenPetItem/PetStatusGroup]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,AlchemyUltimateCraft/SubPanelObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,Battle.DealMeterStreamPack/Type]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,Character_GridItem_EmblemListRow/EmblemGridItemView]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,Filter_Panel/FilterParent]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,GridItem_Currency]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,GridItem_ProductPackage/GameObjectList]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,LB_AlchemyUltimateModify/SubPanelObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,Lobby.LB_Alchemy/PanelObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,Pocket_Popup/PocketPanelSetting]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,SoulForge_Popup/TabItem]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,Supporter_Popup/SubPanelViewContainer]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,System.Int32]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,TrainCenter.VectorList]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,UltimatePartsCollection/ColorSet]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,UnityEngine.Color]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,UnityEngine.UI.Button]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,UnityEngine.Vector2]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,eCardType]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,eElementType]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.Int32,ePartsType]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.String,System.String]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[System.ValueTuple`2[System.Int32,System.Int32],UnityEngine.UI.Button]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[UnityEngine.TextAnchor,RecycleScroll.ConditionData]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[UnityEngine.TextAnchor,RecycleScroll.ConditionExpression]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eArchiveCategory,Archive_Popup/CategoryObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eCardType,Card_Detail_Description/UsingObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eCardType,Pocket_Popup_Equip/PanelSettings]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eCardType,Preset_Popup/CardObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eCardType,UI_Card_Inform_Detail/CardPartsIcon]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eCardType,UI_Card_Inform_Detail/DescriptionObjectHierarchyOrder]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eChatCategory,ChatTabObjects]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eElementType,Battle.TrainCenter.UI.ElementGroup]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eGrade,Character_Popup_SoulEnhance_Rate/RatePerGradeObjs]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eGrade,GachaCutSceneViewContainer/GradeObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eGrade,GridItem_GachaRate]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eGrade,UnityEngine.Color]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eGrade,UnityEngine.GameObject]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eIngameEventerType,UnityEngine.Vector2]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eObjectType,UnityEngine.UI.Button]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[ePartsType,Supporter/EnablePartsSlotView]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[ePartsType,Supporter_Panel_SoulWeapon/SoulWeaponGridView]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[ePocketItemType,Pocket_Popup_Inform/PanelSettings]" preserve="nothing" serialized="true" />
+    <type fullname="CustomSerialization.SerializableKeyValuePair`2[eType_Collection_Category,UI_Collection_Panel/CategoryTabObjects]" preserve="nothing" serialized="true" />
+    <type fullname="MathUtils.MinMaxFloat" preserve="nothing" serialized="true" />
+    <type fullname="MathUtils.MinMaxInt" preserve="nothing" serialized="true" />
+    <type fullname="RecycleScroll.BoolVector2" preserve="nothing" serialized="true" />
+    <type fullname="RecycleScroll.ConditionData" preserve="nothing" serialized="true" />
+    <type fullname="RecycleScroll.ConditionData/ConditionValue" preserve="nothing" serialized="true" />
+    <type fullname="RecycleScroll.ConditionExpression" preserve="nothing" serialized="true" />
+    <type fullname="RecycleScroll.RecycleScrollbar/BeginDragEvent" preserve="nothing" serialized="true" />
+    <type fullname="RecycleScroll.RecycleScrollbar/EndDragEvent" preserve="nothing" serialized="true" />
+    <type fullname="RecycleScroll.RecycleScrollbar/LoopScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="RecycleScroll.RecycleScrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="RecycleScroll.RecycleScroller/ScrollerEvent" preserve="nothing" serialized="true" />
+    <type fullname="RecycleScroll.ScrollPagingConfig" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonDataAsset" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonGraphic" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonPartsRenderer" preserve="all" />
+    <type fullname="Spine.Unity.SkeletonRenderSeparator" preserve="all" />
+    <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
+    <type fullname="Spine.Unity.BlendModeMaterials" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.BlendModeMaterials/ReplacementMaterial" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.MeshGenerator" preserve="nothing" serialized="true" />
+    <type fullname="Spine.Unity.MeshGenerator/Settings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Localization.Locale" preserve="all" />
+    <type fullname="UnityEngine.Localization.PropertyVariants.GameObjectLocalizer" preserve="all" />
+    <type fullname="UnityEngine.Localization.Tables.AssetTable" preserve="all" />
+    <type fullname="UnityEngine.Localization.Tables.SharedTableData" preserve="all" />
+    <type fullname="UnityEngine.Localization.Tables.StringTable" preserve="all" />
+    <type fullname="UnityEngine.Localization.LocaleIdentifier" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.MetadataCollection" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.PropertyVariants.TrackedObjects.TrackedRectTransform" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.PropertyVariants.TrackedObjects.TrackedUGuiGraphic" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.PropertyVariants.TrackedProperties.FloatTrackedProperty" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.PropertyVariants.TrackedProperties.IntTrackedProperty" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.AssetTypeMetadata" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
+    <type fullname="UnityEngine.RenderTexture" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[Default_GridItem]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.Boolean]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.Int32]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[UI_AmountSlider/ValueChangeEvent]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`2[System.Int32,System.Boolean]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Grid" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Tilemaps.Tilemap" preserve="all" />
+    <type fullname="UnityEngine.Tilemaps.TilemapRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.InputField" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
+    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
+    <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Video.VideoPlayer" preserve="all" />
+  </assembly>
+</linker>

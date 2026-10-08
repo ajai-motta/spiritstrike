@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_hive_consent_mode_lt_form_detail_back_on__0_res_0x7f080049">
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_hive_consent_mode_lt_form_detail_back_on__1_res_0x7f08004a"/>
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_hive_consent_mode_lt_form_detail_back_on__2_res_0x7f08004b"/>
+</animated-vector>

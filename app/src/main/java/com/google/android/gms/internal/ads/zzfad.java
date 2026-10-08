@@ -1,0 +1,35 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.Bundle;
+import com.facebook.devicerequests.internal.DeviceRequestsHelper;
+import com.google.android.gms.internal.ads.zzexy;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@24.7.0 */
+/* JADX INFO: loaded from: classes9.dex */
+public final class zzfad implements zzexy {
+    private final Bundle zza;
+
+    public zzfad(Bundle bundle) {
+        this.zza = bundle;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzexy
+    public final /* bridge */ /* synthetic */ void zza(Object obj) {
+        JSONObject jSONObject = (JSONObject) obj;
+        Bundle bundle = this.zza;
+        if (bundle != null) {
+            try {
+                com.google.android.gms.ads.internal.util.zzbp.zzh(com.google.android.gms.ads.internal.util.zzbp.zzh(jSONObject, DeviceRequestsHelper.DEVICE_INFO_DEVICE), "play_store").put("parental_controls", com.google.android.gms.ads.internal.client.zzbb.zza().zzm(bundle));
+            } catch (JSONException unused) {
+                com.google.android.gms.ads.internal.util.zze.zza("Failed putting parental controls bundle.");
+            }
+        }
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzexy
+    public /* synthetic */ void zzb(Object obj) {
+        zzexy.CC.$default$zzb(this, obj);
+    }
+}

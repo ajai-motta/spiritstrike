@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/hive_device_management_font_size_16"
+    android:textStyle="normal"
+    android:textColor="?attr/hiveFontColorDropdown"
+    android:gravity="center"
+    android:layout_gravity="start"
+    android:id="@+id/hive_device_management_spinner_item"
+    android:background="?attr/hiveButtonColorDropdown"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/hive_device_management_button_height"
+    android:paddingHorizontal="10dp"/>

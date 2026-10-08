@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="promotion_news_banner_footer_item_imageView_ratio">60:34</string>
+    <string name="promotion_news_banner_item_badge_inner_margin_center_ratio">3:20</string>
+    <string name="promotion_news_banner_item_badge_inner_margin_left_ratio">6:20</string>
+    <string name="promotion_news_banner_item_badge_inner_margin_right_ratio">6:20</string>
+    <string name="promotion_news_banner_item_badge_margin_bottom_ratio">410:8</string>
+    <string name="promotion_news_banner_item_margin_bottom_ratio">410:6</string>
+    <string name="promotion_news_frame_view_force_btn_marginStart">10:30</string>
+    <string name="promotion_news_frame_view_force_textView_marginStart">6:30</string>
+    <string name="promotion_news_tab_item_paddingBottom">135:4</string>
+</resources>

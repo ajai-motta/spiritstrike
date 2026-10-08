@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="com_hive_sdk_promotion_customview_v2_banner_progress_bar_bottom_margin">75</integer>
+    <integer name="com_hive_sdk_promotion_customview_v2_banner_progress_bar_top_margin">910</integer>
+    <integer name="com_hive_sdk_repayment_orientation">0</integer>
+</resources>

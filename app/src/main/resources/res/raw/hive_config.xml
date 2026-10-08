@@ -1,0 +1,165 @@
+<properties>
+  <useAuthv1>false</useAuthv1>
+  <useAuthv4>true</useAuthv4>
+  <appId>com.com2usholdings.soulstrike.android.google.global.normal</appId>
+  <universalLink />
+  <facebookAppId>315146583897979</facebookAppId>
+  <providers>
+    <facebook id="315146583897979" clientToken="UqgZjgQOyg0ZALkRv7LSy6KxmN0=">
+      <permissions />
+    </facebook>
+    <google playAppId="112044885647" serverClientId="112044885647-jc791srfpd78hln1ima4klbahr9anun2.apps.googleusercontent.com" />
+    <googleplaygames playAppId="112044885647" serverClientId="112044885647-jc791srfpd78hln1ima4klbahr9anun2.apps.googleusercontent.com" />
+    <qq id="" />
+    <wechat id="" secret="" paymentKey="" />
+    <line channelId="" />
+    <weverse clientId="" />
+    <signinwithapple serviceid="" />
+    <Adjust name="Adjust" id="unused" key="dr91wcwefx8g">
+      <events>
+        <event name="terms_of_use" value="7dyuje" />
+        <event name="Account Creation" value="uvznxq" />
+        <event name="resource_start" value="kh91h3" />
+        <event name="resource_complete" value="49abah" />
+        <event name="Tutorial_start" value="knyshs" />
+        <event name="Tutorial_complete" value="abc1yg" />
+        <event name="Tutorial_End" value="uej9sd" />
+        <event name="Guide_2(1)" value="na8b75" />
+        <event name="Guide_5(2)" value="z7ijsg" />
+        <event name="Guide_11(3)" value="mdtwzx" />
+        <event name="Guide_12(4)" value="pajun0" />
+        <event name="Guide_18(5)" value="w6sfqx" />
+        <event name="Guide_33(6)" value="2voxqd" />
+        <event name="Guide_34(7)" value="17p1kc" />
+        <event name="Guide_58(8)" value="tbxn1i" />
+        <event name="Guide_135(9)" value="785fam" />
+        <event name="Guide_150(10)" value="kexs8q" />
+        <event name="Guide_163(11)" value="6e6duh" />
+        <event name="ad_short" value="cxmaoa" />
+        <event name="ad_long" value="utcowd" />
+        <event name="ad_short_new" value="7qhi8g" />
+        <event name="ad_long_new" value="6nq9iy" />
+        <event name="aether_bank1" value="ic9olh" />
+        <event name="ef_first" value="lgkgrl" />
+        <event name="ef_second" value="cxoabv" />
+        <event name="Chapter_package_1" value="hj766w" />
+        <event name="Chapter_package_2" value="kie7e2" />
+        <event name="Chapter_package_3" value="152qbl" />
+        <event name="Chapter_package_4" value="lmo1qi" />
+        <event name="first_purchase" value="fyr86x" />
+        <event name="Purchase" value="ium1sb" />
+        <event name="Stage_Normal_1-10" value="eaovdx" />
+        <event name="Stage_Normal_1-11" value="d6n1fp" />
+        <event name="Stage_Normal_1-12" value="6j5egm" />
+        <event name="Stage_Normal_1-13" value="ipp731" />
+        <event name="Stage_Normal_1-14" value="mz5jzo" />
+        <event name="Stage_Normal_1-15" value="rc6c21" />
+        <event name="Stage_Normal_1-20" value="oq8feq" />
+        <event name="Stage_Normal_1-30" value="30ugls" />
+        <event name="Stage_Normal_1-40" value="cwd1wz" />
+        <event name="Stage_Normal_1-50" value="vohe41" />
+        <event name="Stage_Normal_1-60" value="uwlzng" />
+        <event name="Stage_Normal_2-1" value="rryxae" />
+        <event name="Stage_Normal_2-5" value="l8di71" />
+        <event name="Stage_Normal_2-10" value="pekyfe" />
+        <event name="Stage_Normal_2-15" value="enboed" />
+        <event name="Stage_Normal_2-20" value="99ik89" />
+        <event name="Stage_Normal_2-25" value="ewxwfk" />
+        <event name="Stage_Normal_2-30" value="1vnpc5" />
+        <event name="Stage_Normal_2-35" value="oz7hqb" />
+        <event name="Stage_Normal_2-40" value="m1yym7" />
+        <event name="Stage_Normal_2-45" value="yjli7k" />
+        <event name="Stage_Normal_2-50" value="15pbli" />
+        <event name="Stage_Normal_2-55" value="ytuhp6" />
+        <event name="Stage_Normal_2-58" value="f904lu" />
+        <event name="Stage_Normal_2-59" value="9fagiw" />
+        <event name="Stage_Normal_2-60" value="e29dh6" />
+        <event name="Stage_Normal_3-1" value="89gylm" />
+        <event name="Stage_Normal_3-5" value="fuunnx" />
+        <event name="Stage_Normal_3-10" value="3rdpb5" />
+        <event name="Stage_Normal_3-15" value="8db7ki" />
+        <event name="Stage_Normal_3-20" value="xaicxn" />
+        <event name="Stage_Normal_3-25" value="ihfp0j" />
+        <event name="Stage_Normal_3-30" value="9o3rlo" />
+        <event name="Stage_Normal_3-31" value="s19m37" />
+        <event name="Stage_Normal_3-35" value="b61xib" />
+        <event name="Stage_Normal_3-40" value="pl9b7l" />
+        <event name="Stage_Normal_3-45" value="rfxul6" />
+        <event name="Stage_Normal_3-50" value="9x4hqc" />
+        <event name="Stage_Normal_3-55" value="wq32lh" />
+        <event name="Stage_Normal_3-58" value="tjj5xj" />
+        <event name="Stage_Normal_3-59" value="l71o51" />
+        <event name="Stage_Normal_3-60" value="q9t525" />
+        <event name="Stage_Normal_3-61" value="v5j7c6" />
+        <event name="hidden_pripackage" value="goh3m9" />
+        <event name="Stage_Normal_4-10" value="jw3x75" />
+        <event name="Stage_Normal_4-20" value="df58eo" />
+        <event name="Stage_Normal_4-30" value="kceicm" />
+        <event name="Stage_Normal_4-40" value="97jreh" />
+        <event name="Stage_Normal_4-50" value="3eyotd" />
+        <event name="Stage_Normal_4-60" value="p273qi" />
+        <event name="Stage_Normal_5-10" value="3sv6cf" />
+        <event name="Stage_Normal_5-20" value="h2kzqp" />
+        <event name="Stage_Normal_5-30" value="tghrvp" />
+        <event name="Stage_Normal_5-40" value="y4f0ot" />
+        <event name="Stage_Normal_5-50" value="m664hw" />
+        <event name="Stage_Normal_5-60" value="9xiif7" />
+      </events>
+    </Adjust>
+    <Singular name="Singular" id="" key="">
+      <events>
+        <event name="Purchase" value="" />
+        <event name="TutorialComplete" value="" />
+        <event name="Update" value="" />
+      </events>
+    </Singular>
+    <AppsFlyer name="AppsFlyer" id="unused" key="" itunesConnectAppId="">
+      <events>
+        <event name="TutorialComplete" value="" />
+        <event name="Update" value="" />
+      </events>
+    </AppsFlyer>
+    <Firebase name="Firebase">
+      <events>
+        <event name="TutorialComplete" value="tutorial_complete" />
+        <event name="Update" value="update" />
+        <event name="Purchase" value="purchase" />
+        <event name="Open" value="open" />
+      </events>
+    </Firebase>
+    <steam realm="" />
+    <x clientId="" />
+    <telegram botId="" botDomain="" />
+    <Airbridge name="Airbridge" id="unused" key="" appName="" secretId="" secret="">
+      <events>
+        <event name="TutorialComplete" value="" />
+        <event name="Update" value="" />
+      </events>
+    </Airbridge>
+  </providers>
+  <facebookClientToken>UqgZjgQOyg0ZALkRv7LSy6KxmN0=</facebookClientToken>
+  <googlePlayAppId>112044885647</googlePlayAppId>
+  <googleServerClientId>112044885647-jc791srfpd78hln1ima4klbahr9anun2.apps.googleusercontent.com</googleServerClientId>
+  <googlePlayGamesAppId>112044885647</googlePlayGamesAppId>
+  <googlePlayGamesServerClientId>112044885647-jc791srfpd78hln1ima4klbahr9anun2.apps.googleusercontent.com</googlePlayGamesServerClientId>
+  <qqAppId>
+  </qqAppId>
+  <wechatAppId />
+  <wechatAppSecret />
+  <wechatPaymentKey />
+  <zone>real</zone>
+  <hivePermissionViewOn>true</hivePermissionViewOn>
+  <useLog>false</useLog>
+  <ageGateU13>false</ageGateU13>
+  <market>GO</market>
+  <hiveOrientation>landscape</hiveOrientation>
+  <permissions>
+    <sdwrite>false</sdwrite>
+  </permissions>
+  <httpConnectTimeout>8</httpConnectTimeout>
+  <httpReadTimeout>8</httpReadTimeout>
+  <maxGameLogSize>50</maxGameLogSize>
+  <analyticsSendLimit>5</analyticsSendLimit>
+  <analyticsQueueLimit>50</analyticsQueueLimit>
+  <analyticsSendCycle>1</analyticsSendCycle>
+</properties>

@@ -1,0 +1,29 @@
+package com.bytedance.sdk.component.tvp.qdl;
+
+/* JADX INFO: loaded from: classes3.dex */
+public class qdl {
+    private static volatile qdl ud;
+    private volatile ud qdl;
+
+    private qdl() {
+    }
+
+    public static qdl qdl() {
+        if (ud == null) {
+            synchronized (qdl.class) {
+                if (ud == null) {
+                    ud = new qdl();
+                }
+            }
+        }
+        return ud;
+    }
+
+    public void qdl(ud udVar) {
+        this.qdl = udVar;
+    }
+
+    public ud ud() {
+        return this.qdl;
+    }
+}

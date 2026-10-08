@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_promotion_banner_close_from_down_to_up__0_res_0x7f080064">
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_promotion_banner_close_from_down_to_up__1_res_0x7f080065"/>
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_promotion_banner_close_from_down_to_up__2_res_0x7f080066"/>
+    <target
+        android:name="pathAlpha"
+        android:animation="@drawable/_promotion_banner_close_from_down_to_up__3_res_0x7f080067"/>
+</animated-vector>

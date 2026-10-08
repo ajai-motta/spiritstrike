@@ -1,0 +1,35 @@
+package com.bytedance.sdk.openadsdk.rq.qdl;
+
+import com.bytedance.sdk.component.qdl.lnr;
+import com.bytedance.sdk.openadsdk.core.hkc;
+import java.lang.ref.WeakReference;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes3.dex */
+public class lnr extends com.bytedance.sdk.component.qdl.lnr<JSONObject, JSONObject> {
+    private final WeakReference<hkc> qdl;
+
+    public static void qdl(com.bytedance.sdk.component.qdl.bjy bjyVar, final hkc hkcVar) {
+        bjyVar.qdl("newClickEvent", new lnr.ud() { // from class: com.bytedance.sdk.openadsdk.rq.qdl.lnr.1
+            @Override // com.bytedance.sdk.component.qdl.lnr.ud
+            public com.bytedance.sdk.component.qdl.lnr qdl() {
+                return new lnr(hkcVar);
+            }
+        });
+    }
+
+    public lnr(hkc hkcVar) {
+        this.qdl = new WeakReference<>(hkcVar);
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Override // com.bytedance.sdk.component.qdl.lnr
+    public void qdl(JSONObject jSONObject, com.bytedance.sdk.component.qdl.mzz mzzVar) throws Exception {
+        hkc hkcVar = this.qdl.get();
+        if (hkcVar == null) {
+            lnr();
+        } else {
+            hkcVar.mzz(jSONObject);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+package com.google.android.recaptcha.internal;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+
+/* JADX INFO: compiled from: com.google.android.recaptcha:recaptcha@@18.7.1 */
+/* JADX INFO: loaded from: classes5.dex */
+public final class zza {
+    public zza() {
+        new ArrayList();
+        new ArrayDeque();
+    }
+}

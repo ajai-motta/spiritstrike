@@ -1,0 +1,27 @@
+package com.google.android.recaptcha.internal;
+
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+
+/* JADX INFO: compiled from: com.google.android.recaptcha:recaptcha@@18.7.1 */
+/* JADX INFO: loaded from: classes5.dex */
+final class zzdg extends ContinuationImpl {
+    Object zza;
+    /* synthetic */ Object zzb;
+    final /* synthetic */ zzdj zzc;
+    int zzd;
+    zzmc zze;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    zzdg(zzdj zzdjVar, Continuation continuation) {
+        super(continuation);
+        this.zzc = zzdjVar;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        this.zzb = obj;
+        this.zzd |= Integer.MIN_VALUE;
+        return this.zzc.zza(null, this);
+    }
+}

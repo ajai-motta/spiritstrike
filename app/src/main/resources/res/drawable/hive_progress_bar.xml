@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background"
+        android:height="@dimen/com_hive_sdk_progress_max_bar_height">
+        <shape>
+            <solid android:color="#f4f4f4"/>
+        </shape>
+    </item>
+    <item
+        android:id="@android:id/progress"
+        android:height="@dimen/com_hive_sdk_progress_max_bar_height">
+        <clip>
+            <shape>
+                <solid android:color="#2a84d8"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="32dp"
+    android:width="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <group
+        android:name="scaleGroup"
+        android:pivotX="16"
+        android:pivotY="16"
+        android:scaleX="1"
+        android:scaleY="1">
+        <path
+            android:fillColor="?attr/newsCloseBtnVector1"
+            android:pathData="M16,16m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0"
+            android:strokeAlpha="1"
+            android:fillAlpha="1"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="?attr/newsCloseBtnVector2"
+            android:pathData="M16,16m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="?attr/newsCloseBtnVector3"
+            android:pathData="M16,16m-13,0a13,13 0,1 1,26 0a13,13 0,1 1,-26 0"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="?attr/newsCloseBtnVector4"
+            android:pathData="M20.72,11.28c-0.372,-0.373 -0.976,-0.373 -1.348,0L16,14.65l-3.372,-3.372c-0.372,-0.372 -0.976,-0.372 -1.349,0 -0.372,0.373 -0.372,0.977 0,1.35L14.651,16l-3.372,3.372c-0.372,0.372 -0.372,0.976 0,1.349 0.187,0.186 0.43,0.279 0.675,0.279 0.244,0 0.488,-0.093 0.674,-0.28L16,17.35l3.372,3.372c0.186,0.186 0.43,0.279 0.674,0.279 0.244,0 0.488,-0.093 0.675,-0.28 0.372,-0.372 0.372,-0.976 0,-1.348L17.349,16l3.372,-3.372c0.372,-0.372 0.372,-0.976 0,-1.349z"
+            android:fillType="nonZero"/>
+    </group>
+</vector>

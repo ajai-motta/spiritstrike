@@ -1,0 +1,25 @@
+package com.google.android.gms.internal.ads;
+
+import android.content.Context;
+import java.util.HashSet;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@24.7.0 */
+/* JADX INFO: loaded from: classes9.dex */
+public final class zzdks implements zzifh {
+    private final zzifq zza;
+    private final zzifq zzb;
+
+    private zzdks(zzifq zzifqVar, zzifq zzifqVar2) {
+        this.zza = zzifqVar;
+        this.zzb = zzifqVar2;
+    }
+
+    public static zzdks zza(zzifq zzifqVar, zzifq zzifqVar2) {
+        return new zzdks(zzifqVar, zzifqVar2);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzifw, com.google.android.gms.internal.ads.zzifv
+    public final /* bridge */ /* synthetic */ Object zzb() {
+        return new zzdgp((Context) this.zza.zzb(), new HashSet(), ((zzcuf) this.zzb).zza());
+    }
+}

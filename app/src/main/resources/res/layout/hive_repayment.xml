@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hive_repayment"
+    android:background="?attr/com_hive_repayment_bg"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="@integer/com_hive_sdk_repayment_orientation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/hive_repayment_rectangle_1"/>
+                <Space
+                    android:layout_width="@dimen/com_hive_sdk_repayment_rectangle_between_margin"
+                    android:layout_height="@dimen/com_hive_sdk_repayment_rectangle_between_margin"/>
+                <include layout="@layout/hive_repayment_rectangle_2"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

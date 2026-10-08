@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="promotion_news_banner_item_badge_margin_bottom_ratio">706:13</string>
+    <string name="promotion_news_banner_item_margin_bottom_ratio">706:10</string>
+    <string name="promotion_news_frame_view_force_btn_marginStart">13:36</string>
+    <string name="promotion_news_frame_view_force_textView_marginStart">5:36</string>
+    <string name="promotion_news_tab_item_paddingBottom">220:6</string>
+</resources>

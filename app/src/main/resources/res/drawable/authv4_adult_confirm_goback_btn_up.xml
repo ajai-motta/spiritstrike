@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_authv4_adult_confirm_goback_btn_up__0_res_0x7f080013">
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_authv4_adult_confirm_goback_btn_up__1_res_0x7f080014"/>
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_authv4_adult_confirm_goback_btn_up__2_res_0x7f080015"/>
+</animated-vector>

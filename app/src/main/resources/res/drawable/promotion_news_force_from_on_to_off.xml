@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_promotion_news_force_from_on_to_off__0_res_0x7f08007b">
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_promotion_news_force_from_on_to_off__1_res_0x7f08007c"/>
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_promotion_news_force_from_on_to_off__2_res_0x7f08007d"/>
+    <target
+        android:name="in_vector"
+        android:animation="@drawable/_promotion_news_force_from_on_to_off__3_res_0x7f08007e"/>
+    <target
+        android:name="out_vector"
+        android:animation="@drawable/_promotion_news_force_from_on_to_off__4_res_0x7f08007f"/>
+</animated-vector>

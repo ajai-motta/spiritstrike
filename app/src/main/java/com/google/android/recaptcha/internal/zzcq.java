@@ -1,0 +1,98 @@
+package com.google.android.recaptcha.internal;
+
+import android.content.Context;
+import io.ktor.util.date.GMTDateParser;
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.security.GeneralSecurityException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import kotlin.collections.CharIterator;
+import kotlin.collections.CollectionsKt;
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.ranges.CharRange;
+import kotlin.text.StringsKt;
+
+/* JADX INFO: compiled from: com.google.android.recaptcha:recaptcha@@18.7.1 */
+/* JADX INFO: loaded from: classes5.dex */
+public final class zzcq implements zzbt {
+    private final Context zza;
+    private final String zzb = "rce_";
+
+    public zzcq(Context context) {
+        this.zza = context;
+        new zzdl(context);
+    }
+
+    @Override // com.google.android.recaptcha.internal.zzbt
+    public final String zza(String str) {
+        File file = new File(this.zza.getCacheDir(), this.zzb.concat(String.valueOf(str)));
+        if (file.exists()) {
+            return new String(zzdl.zza(file), StandardCharsets.UTF_8);
+        }
+        return null;
+    }
+
+    @Override // com.google.android.recaptcha.internal.zzbt
+    public final void zzb() {
+        try {
+            File[] fileArrListFiles = this.zza.getCacheDir().listFiles();
+            if (fileArrListFiles != null) {
+                ArrayList arrayList = new ArrayList();
+                for (File file : fileArrListFiles) {
+                    if (StringsKt.startsWith$default(file.getName(), this.zzb, false, 2, (Object) null)) {
+                        arrayList.add(file);
+                    }
+                }
+                Iterator it = arrayList.iterator();
+                while (it.hasNext()) {
+                    ((File) it.next()).delete();
+                }
+            }
+        } catch (Exception unused) {
+        }
+    }
+
+    @Override // com.google.android.recaptcha.internal.zzbt
+    public final void zzc(String str, String str2) throws GeneralSecurityException, IOException {
+        CharRange charRange = new CharRange('A', GMTDateParser.ZONE);
+        ArrayList arrayList = new ArrayList(CollectionsKt.collectionSizeOrDefault(charRange, 10));
+        Iterator<Character> it = charRange.iterator();
+        while (it.hasNext()) {
+            arrayList.add(Character.valueOf(((CharIterator) it).nextChar()));
+        }
+        String strJoinToString$default = CollectionsKt.joinToString$default(CollectionsKt.shuffled(arrayList).subList(0, 8), "", null, null, 0, null, null, 62, null);
+        Context context = this.zza;
+        String str3 = this.zzb;
+        File file = new File(context.getCacheDir(), str3.concat(String.valueOf(strJoinToString$default)));
+        zzdl.zzb(file, String.valueOf(str2).getBytes(StandardCharsets.UTF_8));
+        file.renameTo(new File(context.getCacheDir(), str3.concat(String.valueOf(str))));
+    }
+
+    @Override // com.google.android.recaptcha.internal.zzbt
+    public final boolean zzd(String str) {
+        try {
+            File[] fileArrListFiles = this.zza.getCacheDir().listFiles();
+            File file = null;
+            if (fileArrListFiles != null) {
+                int length = fileArrListFiles.length;
+                int i = 0;
+                while (true) {
+                    if (i >= length) {
+                        break;
+                    }
+                    File file2 = fileArrListFiles[i];
+                    if (Intrinsics.areEqual(file2.getName(), this.zzb + str)) {
+                        file = file2;
+                        break;
+                    }
+                    i++;
+                }
+            }
+            return file != null;
+        } catch (Exception unused) {
+            return false;
+        }
+    }
+}

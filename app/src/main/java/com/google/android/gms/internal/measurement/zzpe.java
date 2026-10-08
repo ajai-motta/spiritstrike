@@ -1,0 +1,87 @@
+package com.google.android.gms.internal.measurement;
+
+import android.os.Build;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
+import java.util.function.Function;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-measurement-impl@@23.2.0 */
+/* JADX INFO: loaded from: classes9.dex */
+public final class zzpe {
+    private final ConcurrentMap zza = new ConcurrentHashMap();
+
+    private zzpe() {
+    }
+
+    private final void zzd(zzlk zzlkVar, zzon zzonVar) {
+        zzql.zza(zzlkVar.zzc(), new zzqk() { // from class: com.google.android.gms.internal.measurement.zzoz
+            @Override // com.google.android.gms.internal.measurement.zzqk
+            public final /* synthetic */ void zza(String str) {
+                this.zza.zza(str);
+            }
+        }, new zzqj(this) { // from class: com.google.android.gms.internal.measurement.zzpa
+        });
+    }
+
+    final /* synthetic */ void zza(String str) {
+        zzoo zzooVar = (zzoo) this.zza.get(str);
+        if (zzooVar != null) {
+            zzooVar.zzc(zzpc.zza);
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public final /* synthetic */ boolean zzb(Collection collection) {
+        boolean zZzb = false;
+        if (collection != null && !collection.isEmpty()) {
+            Iterator it = collection.iterator();
+            while (it.hasNext()) {
+                zzoo zzooVar = (zzoo) this.zza.get((String) it.next());
+                if (zzooVar != null) {
+                    zZzb |= zzooVar.zzb();
+                }
+            }
+        }
+        return zZzb;
+    }
+
+    public final zzoo zzc(final zzlk zzlkVar, final zzon zzonVar, String str) {
+        byte[] bArr = null;
+        final String str2 = "";
+        if (Build.VERSION.SDK_INT >= 24) {
+            final zzpd zzpdVar = new zzpd(null);
+            zzoo zzooVar = (zzoo) this.zza.computeIfAbsent(zzonVar.zza(zzlkVar.zzc()), new Function(zzonVar, str2, zzpdVar) { // from class: com.google.android.gms.internal.measurement.zzpb
+                private final /* synthetic */ zzon zzb;
+                private final /* synthetic */ zzpd zzc;
+
+                {
+                    this.zzc = zzpdVar;
+                }
+
+                @Override // java.util.function.Function
+                public final /* synthetic */ Object apply(Object obj) {
+                    zzoo zzooVar2 = new zzoo(new zzpg(this.zza, this.zzb, "", null), null);
+                    this.zzc.zzb(true);
+                    return zzooVar2;
+                }
+            });
+            if (zzpdVar.zza()) {
+                zzd(zzlkVar, zzonVar);
+            }
+            return zzooVar;
+        }
+        zzpg zzpgVar = new zzpg(zzlkVar, zzonVar, str2, bArr);
+        zzoo zzooVar2 = new zzoo(zzpgVar, bArr);
+        zzoo zzooVar3 = (zzoo) this.zza.putIfAbsent(zzpgVar.zzp(), zzooVar2);
+        if (zzooVar3 != null) {
+            return zzooVar3;
+        }
+        zzd(zzlkVar, zzonVar);
+        return zzooVar2;
+    }
+
+    /* synthetic */ zzpe(byte[] bArr) {
+    }
+}

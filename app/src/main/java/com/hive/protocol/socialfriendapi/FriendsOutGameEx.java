@@ -1,0 +1,68 @@
+package com.hive.protocol.socialfriendapi;
+
+import com.hive.core.Logger;
+import com.hive.core.Request;
+import com.hive.core.Response;
+import com.hive.protocol.UrlManager;
+import com.hive.protocol.socialfriendapi.SocialFriendApi;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+import org.json.JSONArray;
+
+/* JADX INFO: compiled from: FriendsOutGameEx.kt */
+/* JADX INFO: loaded from: classes6.dex */
+@Metadata(d1 = {"\u0000*\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\u0018\u00002\u00020\u0001:\u0001\u0011B\t\b\u0000¢\u0006\u0004\b\u0002\u0010\u0003J\r\u0010\t\u001a\u00020\nH\u0010¢\u0006\u0002\b\u000bJ\u0015\u0010\f\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\u000fH\u0010¢\u0006\u0002\b\u0010R\u001e\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00020\u0005@BX\u0086.¢\u0006\b\n\u0000\u001a\u0004\b\u0007\u0010\b¨\u0006\u0012"}, d2 = {"Lcom/hive/protocol/socialfriendapi/FriendsOutGameEx;", "Lcom/hive/protocol/socialfriendapi/SocialFriendApi;", "<init>", "()V", "value", "Lcom/hive/protocol/socialfriendapi/FriendsOutGameEx$FriendsOutGameExResponse;", "response", "getResponse", "()Lcom/hive/protocol/socialfriendapi/FriendsOutGameEx$FriendsOutGameExResponse;", "toCoreRequest", "Lcom/hive/core/Request;", "toCoreRequest$hive_protocol_release", "toResponse", "", "coreResponse", "Lcom/hive/core/Response;", "toResponse$hive_protocol_release", "FriendsOutGameExResponse", "hive-protocol_release"}, k = 1, mv = {2, 1, 0}, xi = 48)
+public final class FriendsOutGameEx extends SocialFriendApi {
+    private FriendsOutGameExResponse response;
+
+    public final FriendsOutGameExResponse getResponse() {
+        FriendsOutGameExResponse friendsOutGameExResponse = this.response;
+        if (friendsOutGameExResponse != null) {
+            return friendsOutGameExResponse;
+        }
+        Intrinsics.throwUninitializedPropertyAccessException("response");
+        return null;
+    }
+
+    @Override // com.hive.protocol.socialfriendapi.SocialFriendApi, com.hive.protocol.ProtocolRequest
+    public Request toCoreRequest$hive_protocol_release() {
+        getCoreRequest().setUrl(UrlManager.SocialFriendApi.INSTANCE.getFriendsOutGameV2());
+        return super.toCoreRequest$hive_protocol_release();
+    }
+
+    @Override // com.hive.protocol.socialfriendapi.SocialFriendApi, com.hive.protocol.ProtocolRequest
+    public void toResponse$hive_protocol_release(Response coreResponse) {
+        Intrinsics.checkNotNullParameter(coreResponse, "coreResponse");
+        super.toResponse$hive_protocol_release(coreResponse);
+        this.response = new FriendsOutGameExResponse(coreResponse);
+    }
+
+    /* JADX INFO: compiled from: FriendsOutGameEx.kt */
+    @Metadata(d1 = {"\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0005\u0018\u00002\u00020\u0001B\u0011\b\u0000\u0012\u0006\u0010\u0002\u001a\u00020\u0003¢\u0006\u0004\b\u0004\u0010\u0005R\u001c\u0010\u0006\u001a\u0004\u0018\u00010\u0007X\u0086\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\b\u0010\t\"\u0004\b\n\u0010\u000b¨\u0006\f"}, d2 = {"Lcom/hive/protocol/socialfriendapi/FriendsOutGameEx$FriendsOutGameExResponse;", "Lcom/hive/protocol/socialfriendapi/SocialFriendApi$SocialFriendApiResponse;", "coreResponse", "Lcom/hive/core/Response;", "<init>", "(Lcom/hive/core/Response;)V", "friendJsonArray", "Lorg/json/JSONArray;", "getFriendJsonArray", "()Lorg/json/JSONArray;", "setFriendJsonArray", "(Lorg/json/JSONArray;)V", "hive-protocol_release"}, k = 1, mv = {2, 1, 0}, xi = 48)
+    public static final class FriendsOutGameExResponse extends SocialFriendApi.SocialFriendApiResponse {
+        private JSONArray friendJsonArray;
+
+        /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+        public FriendsOutGameExResponse(Response coreResponse) {
+            super(coreResponse);
+            Intrinsics.checkNotNullParameter(coreResponse, "coreResponse");
+            if (isSuccess()) {
+                try {
+                    this.friendJsonArray = getContentJSONObject().optJSONArray("friend_list");
+                } catch (Exception e) {
+                    Logger.INSTANCE.protocolLog(e.toString(), Logger.LogType.Warning);
+                    setErrorCode(-1);
+                    setErrorMsg("[Exception] " + e);
+                }
+            }
+        }
+
+        public final JSONArray getFriendJsonArray() {
+            return this.friendJsonArray;
+        }
+
+        public final void setFriendJsonArray(JSONArray jSONArray) {
+            this.friendJsonArray = jSONArray;
+        }
+    }
+}

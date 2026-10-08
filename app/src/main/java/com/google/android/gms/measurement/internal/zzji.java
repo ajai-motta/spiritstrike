@@ -1,0 +1,23 @@
+package com.google.android.gms.measurement.internal;
+
+import com.hive.Analytics;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-measurement-impl@@23.2.0 */
+/* JADX INFO: loaded from: classes5.dex */
+public enum zzji {
+    UNINITIALIZED("uninitialized"),
+    POLICY("eu_consent_policy"),
+    DENIED(Analytics.CONSENT_DENIED),
+    GRANTED(Analytics.CONSENT_GRANTED);
+
+    private final String zze;
+
+    zzji(String str) {
+        this.zze = str;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return this.zze;
+    }
+}

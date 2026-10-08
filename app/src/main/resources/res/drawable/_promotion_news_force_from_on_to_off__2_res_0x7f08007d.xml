@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:duration="100"
+    android:valueFrom="1"
+    android:valueTo="0.83"
+    android:propertyName="scaleY"/>

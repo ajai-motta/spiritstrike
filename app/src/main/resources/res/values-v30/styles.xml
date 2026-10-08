@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HiveNonClearTheme" parent="@style/HiveNonClearTheme.v30">
+    </style>
+    <style name="HiveNonClearTheme.v30" parent="@style/Base.HiveNonClearTheme">
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+    <style name="HiveTheme" parent="@style/HiveTheme.v30">
+    </style>
+    <style name="HiveTheme.v30" parent="@style/Base.HiveTheme">
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+    <style name="Theme.Hive.Promotion.News" parent="@style/Theme.Hive.AppCompat.Translucent">
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+</resources>

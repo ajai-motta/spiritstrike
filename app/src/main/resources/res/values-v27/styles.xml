@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FullscreenAdActivity" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode">1</item>
+    </style>
+    <style name="Theme.Hive.AppCompat.Translucent" parent="@style/Theme.Hive.AppCompat.Translucent.v27">
+    </style>
+    <style name="Theme.Hive.AppCompat.Translucent.v27" parent="@style/Theme.Hive.AppCompat.Translucent.v26">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Theme.Hive.Promotion.News" parent="@style/Theme.Hive.AppCompat.Translucent">
+        <item name="android:windowLayoutInDisplayCutoutMode">1</item>
+    </style>
+</resources>

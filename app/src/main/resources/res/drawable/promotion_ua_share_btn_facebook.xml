@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="54dp"
+    android:width="54dp"
+    android:viewportWidth="54"
+    android:viewportHeight="54">
+    <path
+        android:fillColor="?attr/facebookIcVector1"
+        android:pathData="M40,54l-26,-0c-7.732,-0 -14,-6.268 -14,-14l-0,-26c-0,-7.732 6.268,-14 14,-14L40,0C47.732,0 54,6.268 54,14L54,40C54,47.732 47.732,54 40,54z"
+        android:fillType="evenOdd"/>
+    <group>
+        <clip-path android:pathData="M9,9L45,9 45,44.781 9,44.781z"/>
+        <path
+            android:fillColor="?attr/facebookIcVector2"
+            android:pathData="M45,27C45,17.06 36.941,9 27,9S9,17.06 9,27c0,8.984 6.582,16.431 15.188,17.781L24.188,32.203h-4.57L19.618,27h4.57v-3.966c0,-4.51 2.687,-7.003 6.798,-7.003 1.97,0 4.03,0.352 4.03,0.352v4.43h-2.27c-2.236,0 -2.933,1.387 -2.933,2.81L29.813,27h4.992l-0.798,5.203h-4.195v12.578C38.419,43.431 45,35.984 45,27.001"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>

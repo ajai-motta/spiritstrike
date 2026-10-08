@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.hive.promotion.PromotionUAShareButton
+        android:layout_gravity="center"
+        android:id="@+id/promotion_ua_share_button"
+        android:background="#00ffffff"
+        android:layout_width="@dimen/com_hive_sdk_ua_share_btn_size"
+        android:layout_height="@dimen/com_hive_sdk_ua_share_btn_size"/>
+</FrameLayout>

@@ -1,0 +1,35 @@
+package com.bykv.vk.openvk.preload.geckox.logger;
+
+/* JADX INFO: loaded from: classes2.dex */
+public class GeckoLogger {
+    private static boolean DEBUG;
+    private static Logger sLogger = new DefaultLogger();
+
+    public static void d(String str, Object... objArr) {
+    }
+
+    public static void e(String str, String str2, Throwable th) {
+    }
+
+    public static void w(String str, String str2) {
+    }
+
+    public static void w(String str, String str2, Throwable th) {
+    }
+
+    public static void enable() {
+        DEBUG = true;
+    }
+
+    public static void disable() {
+        DEBUG = false;
+    }
+
+    public static boolean isDebug() {
+        return DEBUG;
+    }
+
+    public static void redirect(Logger logger) {
+        sLogger = logger;
+    }
+}

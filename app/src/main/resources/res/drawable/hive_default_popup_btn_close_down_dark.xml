@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_hive_default_popup_btn_close_down_dark__0_res_0x7f08004f">
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_hive_default_popup_btn_close_down_dark__1_res_0x7f080050"/>
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_hive_default_popup_btn_close_down_dark__2_res_0x7f080051"/>
+</animated-vector>

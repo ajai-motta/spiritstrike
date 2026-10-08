@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_authv4_social_close_btn_down_to_up__0_res_0x7f08002e">
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_authv4_social_close_btn_down_to_up__1_res_0x7f08002f"/>
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_authv4_social_close_btn_down_to_up__2_res_0x7f080030"/>
+</animated-vector>

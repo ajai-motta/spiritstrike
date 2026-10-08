@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="550dp"
+    android:width="930dp"
+    android:viewportWidth="930"
+    android:viewportHeight="550">
+    <path
+        android:fillColor="?attr/newsMainOutline"
+        android:pathData="M22,0L908,0A22,22 0,0 1,930 22L930,528A22,22 0,0 1,908 550L22,550A22,22 0,0 1,0 528L0,22A22,22 0,0 1,22 0z"
+        android:strokeAlpha="1"
+        android:fillAlpha="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="?attr/newsSubOutline"
+        android:pathData="M22,3L908,3A19,19 0,0 1,927 22L927,528A19,19 0,0 1,908 547L22,547A19,19 0,0 1,3 528L3,22A19,19 0,0 1,22 3z"
+        android:strokeAlpha="1"
+        android:fillAlpha="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="?attr/newsMainPage"
+        android:pathData="M23,6L907,6A17,17 0,0 1,924 23L924,527A17,17 0,0 1,907 544L23,544A17,17 0,0 1,6 527L6,23A17,17 0,0 1,23 6z"
+        android:strokeAlpha="1"
+        android:fillAlpha="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="?attr/newsSubPage"
+        android:pathData="M235,6L907,6A17,17 0,0 1,924 23L924,527A17,17 0,0 1,907 544L235,544A17,17 0,0 1,218 527L218,23A17,17 0,0 1,235 6z"
+        android:fillType="evenOdd"/>
+</vector>

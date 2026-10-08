@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_gravity="fill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.hive.core.webview.HiveWebView
+            android:id="@+id/hive_authv4_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.hive.ui.view.HiveAnimationButton
+            android:id="@+id/hive_authv4_close_button"
+            android:layout_width="@dimen/authv4_dialog_close_btn_size"
+            android:layout_height="@dimen/authv4_dialog_close_btn_size"
+            android:layout_marginTop="@dimen/authv4_dialog_close_btn_margin"
+            android:layout_marginRight="@dimen/authv4_dialog_close_btn_margin"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            app:OffAnimation="?attr/authv4CloseBtnUp"
+            app:OnAnimation="?attr/authv4CloseBtnDown"
+            app:srcCompat="?attr/authv4CloseBtnDown"/>
+        <ProgressBar
+            android:id="@+id/hive_authv4_webview_spinner"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

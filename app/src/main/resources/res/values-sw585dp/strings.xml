@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="promotion_news_banner_footer_item_imageView_ratio">90:51</string>
+    <string name="promotion_news_banner_item_badge_inner_margin_center_ratio">6:28</string>
+    <string name="promotion_news_banner_item_badge_inner_margin_left_ratio">9:28</string>
+    <string name="promotion_news_banner_item_badge_inner_margin_right_ratio">9:28</string>
+    <string name="promotion_news_banner_item_badge_margin_bottom_ratio">538:13</string>
+    <string name="promotion_news_banner_item_margin_bottom_ratio">538:10</string>
+    <string name="promotion_news_frame_view_force_btn_marginStart">15:43</string>
+    <string name="promotion_news_frame_view_force_textView_marginStart">7:43</string>
+    <string name="promotion_news_tab_icon_marginEnd_ratio">7:51</string>
+    <string name="promotion_news_tab_icon_marginStart_ratio">24:51</string>
+    <string name="promotion_news_tab_item_textView_marginEnd_ratio">27:51</string>
+</resources>

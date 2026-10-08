@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_promotion_banner_force_from_off_to_on__0_res_0x7f08006c">
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_promotion_banner_force_from_off_to_on__1_res_0x7f08006d"/>
+    <target
+        android:name="scaleGroup"
+        android:animation="@drawable/_promotion_banner_force_from_off_to_on__2_res_0x7f08006e"/>
+    <target
+        android:name="in_vector"
+        android:animation="@drawable/_promotion_banner_force_from_off_to_on__3_res_0x7f08006f"/>
+    <target
+        android:name="out_vector"
+        android:animation="@drawable/_promotion_banner_force_from_off_to_on__4_res_0x7f080070"/>
+</animated-vector>

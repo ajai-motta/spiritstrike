@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "917291401990",
+    "project_id": "project-alchemist-3358057279",
+    "storage_bucket": "project-alchemist-3358057279.appspot.com",
+    "firebase_url": "project-alchemist-3358057279.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917291401990:android:2f3985cf05ab160ba09487",
+        "android_client_info": {
+          "package_name": "com.com2usholdings.soulstrike.android.google.global.normal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917291401990-lvbof0tg6v7j5skldbj6ik1vg62t71td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.com2usholdings.soulstrike.android.google.global.normal",
+            "certificate_hash": "17eacf2e3a965478b656d332e996be248ab09715"
+          }
+        },
+        {
+          "client_id": "917291401990-btole3hcl0skjft2gtn4sbhpdfv2ipo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBChm8XoJMCQRgqz4ggjqgAQ3U-Q77IbQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917291401990-btole3hcl0skjft2gtn4sbhpdfv2ipo0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "917291401990-qi4afmu59q8qrbl1o84m77vmgl1ihb81.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.com2usholdings.soulstrike.ios.apple.global.normal",
+                "app_store_id": "1618381740"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
